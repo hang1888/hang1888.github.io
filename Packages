@@ -1,3 +1,66 @@
+Package: com.be-huge.floating-view
+Version: 1.5.8-7
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.5.8-7_iphoneos-arm64e.deb
+Size: 1756856
+MD5sum: dd8c06f06a73335ab5ac32828addaa4e
+SHA1: 53e026f6014801c7f59623790159e59937bb8694
+SHA256: e3144e82cad7963dbbdf97aaba9918c2a1c7b28096b284580b3e5f384eb92e48
+Section: 自用插件
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.h.chajian
+Version: 0.0.1-48+debug
+Architecture: iphoneos-arm64e
+Maintainer: h
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信插件管理头像旋转_iphoneos-arm64e.deb
+Size: 4428
+MD5sum: 26e9cdb86ee12644699de71c57a4c24b
+SHA1: f44d0316da20a492d2e4b4d681abf0cf04909cb1
+SHA256: 757c8ad41d3732a52cc353e1504385758957a6b868fc895c08f6922a5fa757fb
+Section: 自用插件
+Description: An awesome MobileSubstrate tweak!
+Author: h
+Name: chajian
+
+Package: com.h.juju
+Version: 0.0.1-30+debug
+Architecture: iphoneos-arm64e
+Maintainer: h
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/助手栏自定义居中1.8.deb
+Size: 10108
+MD5sum: 9d9c9f0caea4e5d4c7fa8913ff568d31
+SHA1: 6eff31cf3d3b83eca857c7de28bc3777412a32a3
+SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
+Section: 自用插件
+Description: An awesome MobileSubstrate tweak!
+Author: h
+Name: juju
+
+Package: com.huami.WCExtractRes
+Version: 2.7
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.命名arm64_rootless.deb
+Size: 1172372
+MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
+SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
+SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
+Section: Tweak
+Priority: optional
+Author: huami
+Name: WCExtractRes
+
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64
@@ -14,4 +77,36 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.mingzi
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/显示真实未读消息（航）-arm64.deb
+Size: 3668
+MD5sum: ea15ba4c4b1ff26db1a89f9d5e67b5c7
+SHA1: 2d674dbfb6aad8ed042e5207908780de1d0ff31a
+SHA256: cfc200e6d6ec5be8144f4c19e17051dda0fe7724450e082d4b21fb015b129ee6
+Section: 自用插件
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: mingzi
+
+Package: ovh.exerhythm.cardculator
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 920
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: debs/Cardculator.2.1.1（计算器）.deb
+Size: 122328
+MD5sum: e79d872b79d0f87aa95437c00edd7845
+SHA1: a4b4418a3e6a969ebd420feaba709f1b927aa5ae
+SHA256: 0aebcd9471bf40ebdea949caad037dea2c6162b3e65ac040d3d52c32dc7700ff
+Section: 自用插件
+Description: Calculator, but smaller
+Author: sourcelocation
+Name: Cardculator
 
