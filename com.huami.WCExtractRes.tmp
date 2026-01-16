@@ -1,0 +1,28 @@
+Package: com.huami.WCExtractRes
+Version: 2.7
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.命名arm64_rootless.deb
+Size: 1172372
+MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
+SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
+SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
+Section: 微信插件
+Priority: optional
+Author: huami
+Name: 微信图标命名
+
+Package: com.huami.WCExtractRes
+Version: 2.7
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.命名arm64_rootless.deb
+Size: 1172372
+MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
+SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
+SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
+Section: Tweak
+Priority: optional
+Author: huami
+Name: WCExtractRes
+

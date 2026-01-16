@@ -1,0 +1,18 @@
+Package: ovh.exerhythm.cardculator
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 920
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: debs/Cardculator.2.1.1（计算器）.deb
+Size: 122328
+MD5sum: e79d872b79d0f87aa95437c00edd7845
+SHA1: a4b4418a3e6a969ebd420feaba709f1b927aa5ae
+SHA256: 0aebcd9471bf40ebdea949caad037dea2c6162b3e65ac040d3d52c32dc7700ff
+Section: 自用插件
+Description: Calculator, but smaller
+Author: sourcelocation
+Name: Cardculator计算器
+
+
+

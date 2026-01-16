@@ -1,0 +1,16 @@
+Package: com.h.juju
+Version: 0.0.1-30+debug
+Architecture: iphoneos-arm64
+Maintainer: h
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/助手栏自定义居中1.8.deb
+Size: 10108
+MD5sum: 9d9c9f0caea4e5d4c7fa8913ff568d31
+SHA1: 6eff31cf3d3b83eca857c7de28bc3777412a32a3
+SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
+Section: 微信插件
+Description: 微信助手栏自定义居中!
+Author: h
+Name: 微信助手栏居中
+

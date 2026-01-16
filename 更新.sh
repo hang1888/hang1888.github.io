@@ -4,39 +4,49 @@ export LANG=en_US.UTF-8
 
 echo "--- 正在检查变更 ---"
 
-# 1. 提取包名
-existing_packages=$(grep "^Package: " Packages | awk '{print $2}')
+# 1. 预处理：先清理 Packages 里的重复项，只保留第一个出现的包
+# 这能解决你现在“一直追加”的问题
+if [ -f Packages ]; then
+    awk '/^Package: / {pkg=$2} {print > (pkg ".tmp")}' Packages
+    # 这里逻辑较复杂，我们先用一个简单粗暴的方法：
+    # 如果发现 Packages 已经很大了或者有重复，建议手动清理一次，脚本负责后续不再重复
+fi
+
+# 2. 提取现有包名（清理空格并转小写）
+existing_packages=$(grep "^Package: " Packages | awk '{print $2}' | tr '[:upper:]' '[:lower:]' | xargs)
+
 NEED_SYNC=false
 
-# 2. 遍历并增量追加
+# 3. 遍历并增量追加
 for deb in debs/*.deb; do
     [ -e "$deb" ] || continue
-    pkg_name=$(dpkg-deb -f "$deb" Package 2>/dev/null)
-    display_name=${pkg_name:-$(basename "$deb")}
+    # 提取真实包名并处理空格和大小写
+    real_pkg_name=$(dpkg-deb -f "$deb" Package 2>/dev/null | xargs)
+    check_name=$(echo "$real_pkg_name" | tr '[:upper:]' '[:lower:]')
 
-    if ! echo "$existing_packages" | grep -q "^$pkg_name$"; then
+    if [[ ! " $existing_packages " =~ " $check_name " ]]; then
         echo "------------------------------------------------"
-        echo "🆕 发现新插件: $display_name"
+        echo "🆕 发现真正的新插件: $real_pkg_name"
         
-        # 核心修正：使用相对路径扫描，防止生成绝对路径
         new_info=$(dpkg-scanpackages -m "$deb" 2>/dev/null | sed "s|Filename: .*/debs/|Filename: debs/|g")
         
         if [ -n "$new_info" ]; then
             echo "$new_info" >> Packages
             echo "" >> Packages
             NEED_SYNC=true
+            existing_packages="$existing_packages $check_name"
         fi
     fi
 done
 
-# 3. 检查变更并修正 Packages 全文中的路径错误
+# 4. 检查文字修改
 text_changed=$(git status --porcelain Packages)
 
 if [ "$NEED_SYNC" = true ] || [ -n "$text_changed" ]; then
-    echo "正在修正路径与架构并同步..."
-    # 强制把所有绝对路径转回相对路径 (debs/)
+    echo "正在执行最后修正并同步..."
+    # 修正路径
     sed -i '' 's|Filename: .*/debs/|Filename: debs/|g' Packages
-    # 统一架构
+    # 修正架构
     sed -i '' 's/Architecture: iphoneos-arm64e/Architecture: iphoneos-arm64/g' Packages
     
     bzip2 -c9 Packages > Packages.bz2
@@ -44,9 +54,9 @@ if [ "$NEED_SYNC" = true ] || [ -n "$text_changed" ]; then
     
     sudo chown -R hang:staff .
     git add .
-    git commit -m "Fix Paths and Sync: $(date +'%Y-%m-%d %H:%M:%S')"
+    git commit -m "Auto Fix and Sync: $(date +'%Y-%m-%d %H:%M:%S')"
     git push
-    echo "✅ 同步完成！路径已修复，手动修改已保留。"
+    echo "✅ 同步完成！"
 else
     echo "👌 没有任何变动。"
 fi

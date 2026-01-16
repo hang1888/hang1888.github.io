@@ -1,0 +1,17 @@
+Package: com.be-huge.floating-view
+Version: 1.5.8-7
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.5.8-7_iphoneos-arm64e.deb
+Size: 1756856
+MD5sum: dd8c06f06a73335ab5ac32828addaa4e
+SHA1: 53e026f6014801c7f59623790159e59937bb8694
+SHA256: e3144e82cad7963dbbdf97aaba9918c2a1c7b28096b284580b3e5f384eb92e48
+Section: 自用插件
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: FV分屏
+

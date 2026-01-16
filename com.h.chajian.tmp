@@ -1,0 +1,16 @@
+Package: com.h.chajian
+Version: 0.0.1-48+debug
+Architecture: iphoneos-arm64
+Maintainer: h
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信插件管理头像旋转_iphoneos-arm64e.deb
+Size: 4428
+MD5sum: 26e9cdb86ee12644699de71c57a4c24b
+SHA1: f44d0316da20a492d2e4b4d681abf0cf04909cb1
+SHA256: 757c8ad41d3732a52cc353e1504385758957a6b868fc895c08f6922a5fa757fb
+Section: 微信插件
+Description: 微信插件管理头像旋转!
+Author: h
+Name: 微信插件管理头像旋转
+

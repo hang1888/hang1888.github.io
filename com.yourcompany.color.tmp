@@ -1,0 +1,16 @@
+Package: com.yourcompany.color
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/航-取色器.deb
+Size: 4932
+MD5sum: 11afea9bee9176ac608334b7dc75e7c9
+SHA1: ed49c649b5a67858b7e1086196c4871761b7c82d
+SHA256: e4555207e8c9b48623dcff70d2b72db5b85a40cdc88d5f09eec563527903ae48
+Section: 自用插件
+Description: 很棒的取色器!
+Author: 航
+Name: 颜色取色器
+

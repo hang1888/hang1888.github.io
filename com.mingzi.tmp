@@ -1,0 +1,16 @@
+Package: com.mingzi
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/显示真实未读消息（航）-arm64.deb
+Size: 3668
+MD5sum: ea15ba4c4b1ff26db1a89f9d5e67b5c7
+SHA1: 2d674dbfb6aad8ed042e5207908780de1d0ff31a
+SHA256: cfc200e6d6ec5be8144f4c19e17051dda0fe7724450e082d4b21fb015b129ee6
+Section: 微信插件
+Description: 显示真实未读消息
+Author: hang
+Name: 显示真实未读消息
+
