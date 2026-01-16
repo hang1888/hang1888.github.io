@@ -44,7 +44,7 @@ SHA1: 6eff31cf3d3b83eca857c7de28bc3777412a32a3
 SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
 Section: 微信插件
 Description: 微信助手栏自定义居中!
-Author: h
+Author: 航
 Name: 微信助手栏居中
 
 Package: com.huami.WCExtractRes
@@ -59,6 +59,7 @@ SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
 Section: 微信插件
 Priority: optional
 Author: huami
+Description:查看微信图标命名
 Name: 微信图标命名
 
 Package: com.lclrc.hammerit
