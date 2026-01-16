@@ -151,7 +151,7 @@ Size: 525328
 MD5sum: 7d101251b791ccaf54591979fa575797
 SHA1: 65d3460333e78a3fc2e1cb7f0db6b9c43f279cc3
 SHA256: 5ada175421891d9b0b3dc5280fcc74fb780606d0d7dd3a5d09c71da8de769a5d
-Section: 应用程序
+Section: 自用插件
 Description: Lookin UI调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
@@ -170,10 +170,25 @@ Size: 531052
 MD5sum: 2f99217a6f7462434c99001d91ee7ce0
 SHA1: 9b95700458f3281f36a8e2164d2b801853b03848
 SHA256: 68abdaf89554354ad589d694d954090bfd8eae7b84abc7cd9b96c5d710db3268
-Section: 应用程序
+Section: 自用插件
 Description: Lookin UI调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
 Name: LookinLoader
+
+
+Package: com.huami.WCExtractRes
+Version: 2.7
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: /Users/hang/Documents/hang.github/debs/com.huami.命名arm64_rootless.deb
+Size: 1172372
+MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
+SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
+SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
+Section: Tweak
+Priority: optional
+Author: huami
+Name: WCExtractRes
 
 
