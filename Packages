@@ -1,6 +1,6 @@
 Package: com.be-huge.floating-view
 Version: 1.5.8-7
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 3344
 Pre-Depends: rootless-compat(>= 0.9)
@@ -17,7 +17,7 @@ Name: fv分屏
 
 Package: com.h.chajian
 Version: 0.0.1-48+debug
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -33,7 +33,7 @@ Name: 微信插件管理头像旋转
 
 Package: com.h.juju
 Version: 0.0.1-30+debug
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 80
 Depends: mobilesubstrate (>= 0.9.5000)
