@@ -56,7 +56,7 @@ Size: 1172372
 MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
 SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
 SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
-Section: Tweak
+Section: 自用插件
 Priority: optional
 Author: huami
 Name: WCExtractRes
