@@ -10,7 +10,7 @@ Size: 1756856
 MD5sum: dd8c06f06a73335ab5ac32828addaa4e
 SHA1: 53e026f6014801c7f59623790159e59937bb8694
 SHA256: e3144e82cad7963dbbdf97aaba9918c2a1c7b28096b284580b3e5f384eb92e48
-Section: 自用插件
+Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
@@ -26,7 +26,7 @@ Size: 4428
 MD5sum: 26e9cdb86ee12644699de71c57a4c24b
 SHA1: f44d0316da20a492d2e4b4d681abf0cf04909cb1
 SHA256: 757c8ad41d3732a52cc353e1504385758957a6b868fc895c08f6922a5fa757fb
-Section: 自用插件
+Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: h
 Name: chajian
@@ -42,7 +42,7 @@ Size: 10108
 MD5sum: 9d9c9f0caea4e5d4c7fa8913ff568d31
 SHA1: 6eff31cf3d3b83eca857c7de28bc3777412a32a3
 SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
-Section: 自用插件
+Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: h
 Name: juju
@@ -56,7 +56,7 @@ Size: 1172372
 MD5sum: e3b415c8ac11ee30bac0e94b19b75fcc
 SHA1: ecabc2deb912dcfcf3fc9f758e8a22ef1b2ff283
 SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
-Section: 自用插件
+Section: Tweak
 Priority: optional
 Author: huami
 Name: WCExtractRes
@@ -72,7 +72,7 @@ Size: 977970
 MD5sum: d70699b93e4c1d86aa21a963427ca3cd
 SHA1: 575137e624ea6d038c4ab4dcc7da9a01ee417fc6
 SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
-Section: 自用插件
+Section: Tweaks
 Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
@@ -89,7 +89,7 @@ Size: 3668
 MD5sum: ea15ba4c4b1ff26db1a89f9d5e67b5c7
 SHA1: 2d674dbfb6aad8ed042e5207908780de1d0ff31a
 SHA256: cfc200e6d6ec5be8144f4c19e17051dda0fe7724450e082d4b21fb015b129ee6
-Section: 自用插件
+Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: hang
 Name: mingzi
@@ -105,7 +105,7 @@ Size: 4932
 MD5sum: 11afea9bee9176ac608334b7dc75e7c9
 SHA1: ed49c649b5a67858b7e1086196c4871761b7c82d
 SHA256: e4555207e8c9b48623dcff70d2b72db5b85a40cdc88d5f09eec563527903ae48
-Section: 自用插件
+Section: Tweaks
 Description: 很棒的取色器!
 Author: 航
 Name: 航的取色器
@@ -121,7 +121,7 @@ Size: 122328
 MD5sum: e79d872b79d0f87aa95437c00edd7845
 SHA1: a4b4418a3e6a969ebd420feaba709f1b927aa5ae
 SHA256: 0aebcd9471bf40ebdea949caad037dea2c6162b3e65ac040d3d52c32dc7700ff
-Section: 自用插件
+Section: Tweaks
 Description: Calculator, but smaller
 Author: sourcelocation
 Name: Cardculator
