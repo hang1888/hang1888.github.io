@@ -2,12 +2,13 @@
 cd /Users/hang/Documents/hang.github
 export LANG=en_US.UTF-8
 
-echo "--- 正在检查变更 (含 about.png 检查) ---"
+echo "--- 正在检查变更 ---"
 
 # 1. 提取包名列表（忽略大小写）
 existing_packages=$(grep "^Package: " Packages | awk '{print $2}' | tr '[:upper:]' '[:lower:]' | xargs)
 
 NEED_SYNC=false
+UPDATED_PLUGINS=""
 
 # 2. 遍历并增量追加新 deb
 for deb in debs/*.deb; do
@@ -25,17 +26,31 @@ for deb in debs/*.deb; do
             echo "" >> Packages
             NEED_SYNC=true
             existing_packages="$existing_packages $check_name"
+            UPDATED_PLUGINS="$UPDATED_PLUGINS $real_pkg_name"
         fi
     fi
 done
 
-# 3. 检查所有文件变更（包括 Packages 手动修改和 about.png 图片更新）
-# git status --porcelain 会列出所有有变动的文件
+# 3. 检查所有文件变更（含图片、HTML、Packages 手动修改）
+# 获取简短的状态列表
 changed_files=$(git status --porcelain)
 
 if [ "$NEED_SYNC" = true ] || [ -n "$changed_files" ]; then
-    echo "发现变更，正在处理并同步..."
+    echo "------------------------------------------------"
+    echo "📢 检测到以下内容更新："
     
+    # 如果有手动修改的文件，直接打印出来
+    if [ -n "$changed_files" ]; then
+        echo "修改的文件清单："
+        git status -s
+    fi
+    
+    # 如果有新插件，打印插件名
+    if [ "$NEED_SYNC" = true ]; then
+        echo "新增插件清单：$UPDATED_PLUGINS"
+    fi
+    echo "------------------------------------------------"
+
     # 修正 Packages 的路径和架构
     if [ -f Packages ]; then
         sed -i '' 's|Filename: .*/debs/|Filename: debs/|g' Packages
@@ -51,9 +66,10 @@ if [ "$NEED_SYNC" = true ] || [ -n "$changed_files" ]; then
     
     # Git 同步
     git add .
-    git commit -m "Update packages and assets: $(date +'%Y-%m-%d %H:%M:%S')"
+    # 动态 commit 信息，包含时间
+    git commit -m "Update: $(date +'%Y-%m-%d %H:%M:%S') $UPDATED_PLUGINS"
     git push
-    echo "✅ 全部同步完成！(含 Packages 和图片等资源)"
+    echo "✅ 全部同步完成！"
 else
     echo "👌 没有任何新插件、文字修改或图片变动。"
 fi
