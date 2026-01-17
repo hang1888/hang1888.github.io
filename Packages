@@ -165,3 +165,19 @@ Name: Cardculator计算器
 
 
 
+Package: com.1111
+Version: 0.0.1-151+debug
+Architecture: iphoneos-arm64
+Maintainer: 111
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.1111_0.0.1-151+debug_iphoneos-arm64.deb
+Size: 22766
+MD5sum: eea8db9cf99e32d834b654c161e9ae14
+SHA1: 3d143dc93ceb11ce85486ea1f4fcaf193cfbf37d
+SHA256: ec6f72a14869dd608c19efcb2e86bfda3396e5f41e7d6c2f78676847049d3791
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: 111
+Name: 111
+
