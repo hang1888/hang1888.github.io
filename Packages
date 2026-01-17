@@ -207,7 +207,7 @@ Size: 3384
 MD5sum: 768e3a408a9f7a4a61aedb39e2739608
 SHA1: a32621e7b7c8b5d66a9ce7334ab4e9a78d76650a
 SHA256: 23d4efd366c40c8d171b2ac415a40247e6d6bd13bbd10a4b1c9955834ded56fe
-Section: 插件配置
+Section:插件配置
 Description: 电话助手配置备份/var/mobile/Media/
 Author: 航
 Name: 电话助手配置备份
@@ -222,7 +222,7 @@ Size: 10980
 MD5sum: a2a1e2d901f06e99b6f8311147637540
 SHA1: 0bad5cd8862e07f4d5ddf6dfbf71964ffdd59cc1
 SHA256: f1359b09af6b68c112fbfa1f74a04faad167768ec7db27b1d7a9932d74741f92
-Section: Tweaks
+Section:插件配置
 Description: 乌贼键盘配置备份/var/mobile/Documents/SE_backup
 Author: 航
 Name: 乌贼键盘配置备份
@@ -237,7 +237,7 @@ Size: 5268
 MD5sum: 71d6de0d5ed52d77a0f7b810e29a15a4
 SHA1: c1ea6d749a5825745481d4d41fd30985deffcdbe
 SHA256: 36221ee6e8eb3afbafee55d963d6c0f0bc522cae2b84270544c20065bb595336
-Section: 插件配置
+Section:插件配置
 Description: 乌贼手势配置备份/var/mobile/Documents/SGP_backup
 Author: 航
 Name: 乌贼手势配置备份
