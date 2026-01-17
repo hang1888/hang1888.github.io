@@ -181,3 +181,34 @@ Description: 微信气泡动画
 Author: 111
 Name: 微信炫彩气泡
 
+Package: com.netskao.injectipa
+Version: 1.5-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64.deb
+Size: 417302
+MD5sum: 7cb3a33c50d36b35787cb7fd797dc9b2
+SHA1: 549f9948d6d941a617a833b9a65811afcd79106c
+SHA256: 55f5618a6e04287808a903d59049c6d38b6af37030ae453655e9ba715923b13e
+Section: Netskao-Tweaks
+Description: InjectIPA Tool
+Author: Netskao
+Name: injectipa
+
+Package: dianhuazhushou
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 航
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dianhuazhushou_0.0.1_iphoneos-arm64e.deb
+Size: 3384
+MD5sum: 768e3a408a9f7a4a61aedb39e2739608
+SHA1: a32621e7b7c8b5d66a9ce7334ab4e9a78d76650a
+SHA256: 23d4efd366c40c8d171b2ac415a40247e6d6bd13bbd10a4b1c9955834ded56fe
+Section: Tweaks
+Description: 电话助手配置备份/var/mobile/Media/
+Author: 航
+Name: 电话助手配置备份
+
