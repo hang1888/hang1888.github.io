@@ -16,7 +16,7 @@ Author: be-huge
 Name: FV分屏
 
 Package: com.h.chajian
-Version: 0.0.1-48+debug
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 72
@@ -32,7 +32,7 @@ Author: 航
 Name: 微信插件头像
 
 Package: com.h.juju
-Version: 0.0.1-30+debug
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 80
@@ -131,7 +131,7 @@ Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.
 Name: LookinLoader
 
 Package: com.yourcompany.color
-Version: 0.0.1-15+debug
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 168
@@ -166,7 +166,7 @@ Name: Cardculator计算器
 
 
 Package: com.1111
-Version: 0.0.1-151+debug
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 111
 Installed-Size: 128
@@ -179,5 +179,5 @@ SHA256: ec6f72a14869dd608c19efcb2e86bfda3396e5f41e7d6c2f78676847049d3791
 Section: 微信插件
 Description: 微信气泡动画
 Author: 111
-Name: 微信气泡
+Name: 微信炫彩气泡
 
