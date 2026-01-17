@@ -28,8 +28,8 @@ SHA1: f44d0316da20a492d2e4b4d681abf0cf04909cb1
 SHA256: 757c8ad41d3732a52cc353e1504385758957a6b868fc895c08f6922a5fa757fb
 Section: 微信插件
 Description: 微信插件管理头像旋转!
-Author: h
-Name: 微信插件管理头像旋转
+Author: 航
+Name: 微信插件头像
 
 Package: com.h.juju
 Version: 0.0.1-30+debug
@@ -45,7 +45,7 @@ SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
 Section: 微信插件
 Description: 微信助手栏自定义居中!
 Author: 航
-Name: 微信助手栏居中
+Name: 微信助手居中
 
 Package: com.huami.WCExtractRes
 Version: 2.7
@@ -92,8 +92,8 @@ SHA1: 2d674dbfb6aad8ed042e5207908780de1d0ff31a
 SHA256: cfc200e6d6ec5be8144f4c19e17051dda0fe7724450e082d4b21fb015b129ee6
 Section: 微信插件
 Description: 显示真实未读消息
-Author: hang
-Name: 显示真实未读消息
+Author: 航
+Name: 显示真实消息
 
 Package: com.wkk.lookinloader
 Version: 1.2.8-2
@@ -176,8 +176,8 @@ Size: 22766
 MD5sum: eea8db9cf99e32d834b654c161e9ae14
 SHA1: 3d143dc93ceb11ce85486ea1f4fcaf193cfbf37d
 SHA256: ec6f72a14869dd608c19efcb2e86bfda3396e5f41e7d6c2f78676847049d3791
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Section: 微信插件
+Description: 微信气泡动画
 Author: 111
-Name: 111
+Name: 微信气泡
 
