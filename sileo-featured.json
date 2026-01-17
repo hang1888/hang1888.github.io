@@ -1,13 +1,13 @@
 {
   "class": "FeaturedBannersView",
   "itemSize": "{320, 150}",
-  "itemCornerRadius":10,
+  "itemCornerRadius": 10,
   "banners": [
     {
-        "url": "https://github.com/hang1888/hang1888.github.io/blob/main/about.png",
+        "url": "https://hang1888.github.io/about.png",
         "title": "",
         "package": "",
         "hideShadow": true
-    },
+    }
   ]
 }
