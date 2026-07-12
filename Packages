@@ -94,6 +94,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: hang
 Name: 航の365去广告
 
+Package: com.hang.bdwp
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/百度网盘去广告-航-arm64.deb
+Size: 15212
+MD5sum: 748c980fafd1cfd94631392da8119758
+SHA1: 6a364d69655ee3adbddbc45df9ef84652eb49497
+SHA256: 824dd05209927c7a825a1f22d4a8a8a6c10a3283b00fdbd07885708c48cde054
+Section: 去广告
+Description: An awesome MobileSubstrate tweak!
+Author: 航
+Name: 航の百度网盘去广告
+
 Package: com.hang.ktc
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm64
