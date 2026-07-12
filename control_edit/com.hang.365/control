@@ -1,0 +1,10 @@
+Package: com.hang.365
+Name: 航のicam365去广告
+Description: 测试版本；3.24.4
+Maintainer: 航
+Author:航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 84

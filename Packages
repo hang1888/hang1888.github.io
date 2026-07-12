@@ -46,6 +46,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.be-huge.insulation
+Version: 0.1.35
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 596
+Depends: firmware (>= 15.0)
+Filename: debs/com.be-huge.insulation_0.1.35_iphoneos-arm64e.deb
+Size: 50094
+MD5sum: f4dfc084681e109144c666b3f372715c
+SHA1: 0ed9b1eaa2cff78bc9b5669a4ddbeb93f5c50edc
+SHA256: ef38d066782c9f12d679f470f20b3bb2b7ecedbc0dc3653e8941aa6006f72362
+Section: 自用插件
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.h.chajian
 Version: 0.0.1-48+debug
 Architecture: iphoneos-arm64
@@ -79,51 +95,51 @@ Author: h
 Name: juju
 
 Package: com.hang.365
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
-Maintainer: hang
+Maintainer: 航
 Installed-Size: 84
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/icam365去广告-航-arm64.deb
-Size: 5940
-MD5sum: ef9b2989f4b1b77612f5d646f16d8cd4
-SHA1: 8b7739cefcff737b1fae08e483b439d6c4fb8e08
-SHA256: 9ae17c62798e2eba9ed7d19b73564c0fc41f6986bef6f3606e399c865338768e
+Size: 5948
+MD5sum: 60074a8a5da11979918a889c955f6277
+SHA1: 399849a9f4497fe57e01f1a9cb76a05a107f9555
+SHA256: 75e9d4374e8b69c2121ac70f7da4162de303d76c7dce39395b3ccdc2cc16a292
 Section: 去广告
-Description: An awesome MobileSubstrate tweak!
-Author: hang
+Description: 测试版本；3.24.4
+Author: 航
 Name: 航のicam365去广告
 
 Package: com.hang.bdwp
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 108
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/百度网盘去广告-航-arm64.deb
-Size: 15300
-MD5sum: f3b332ebce6888767d4dd96416c74b69
-SHA1: e55c256feb8e5a822d0c1ea2f84e2465efd250ec
-SHA256: 0cce03e0c976d510a0b6359351fb68a6fb2e8149e90804662b58be9279c848de
+Size: 15316
+MD5sum: 2a619e62663cf992e544c96adebe982d
+SHA1: 6faa2bfeddc7cd814f63dcee1aecfd1514d597d2
+SHA256: faa2f61c1183edd6654132b0a483ac0699d1f72614dd6d04d03b170da80a658d
 Section: 去广告
-Description: An awesome MobileSubstrate tweak!
+Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
 Package: com.hang.ktc
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
-Maintainer: hang
+Maintainer: 航
 Installed-Size: 128
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/快题词去广告-航-arm64.deb
-Size: 13476
-MD5sum: 89d23fdd907073562b2684469cad646e
-SHA1: 3acaa9429e0d551478eb118295272697359dc821
-SHA256: 318fbf02b9609fe617096c18efa443a5c9449cf74d8492817dac9f007bda2d72
+Size: 13508
+MD5sum: 71d39b73c1d926053081611d858d252d
+SHA1: 725b83004eec8e9bf79e272a0fa6c44b04c836d5
+SHA256: c0fe4e1531cf5d67b9fe7ac256df548fc75f4bb4486b30dc0fcc59cf07316796
 Section: 去广告
-Description: An awesome MobileSubstrate tweak!
-Author: hang
+Description: 最新版本测试
+Author: 航
 Name: 航の快题词去广告
 
 Package: com.huami.WCExtractRes

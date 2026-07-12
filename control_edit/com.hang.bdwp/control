@@ -1,0 +1,10 @@
+Package: com.hang.bdwp
+Name: 航の百度网盘去广告
+Description: 最新版本测试
+Maintainer:航
+Author:航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 108
