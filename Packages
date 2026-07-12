@@ -85,14 +85,14 @@ Maintainer: hang
 Installed-Size: 84
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/icam365去广告-航-arm64.deb
-Size: 5928
-MD5sum: fce56837a18a23496fae38a05da37496
-SHA1: 192934a622815e2d04521110427fdab57de5fef5
-SHA256: 77b040e336d2391793c00396d7e28697a0df06e39188155fdd8643c86d9a9488
+Size: 5940
+MD5sum: ef9b2989f4b1b77612f5d646f16d8cd4
+SHA1: 8b7739cefcff737b1fae08e483b439d6c4fb8e08
+SHA256: 9ae17c62798e2eba9ed7d19b73564c0fc41f6986bef6f3606e399c865338768e
 Section: 去广告
 Description: An awesome MobileSubstrate tweak!
 Author: hang
-Name: 航の365去广告
+Name: 航のicam365去广告
 
 Package: com.hang.bdwp
 Version: 1.0
