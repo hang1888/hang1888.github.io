@@ -79,48 +79,48 @@ Author: h
 Name: juju
 
 Package: com.hang.365
-Version: 0.0.1-9+debug
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: hang
 Installed-Size: 84
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/icam365去广告-航-arm64.deb
-Size: 6066
-MD5sum: f77b8be5bfea2affec43fb4aabbbba5f
-SHA1: 06515e23c6311661d90cd86b70149949c3a5b507
-SHA256: 205358b0dcb2091f566034c8540702ac381a8a158617efcf03a7aed6e18e9892
+Size: 5928
+MD5sum: fce56837a18a23496fae38a05da37496
+SHA1: 192934a622815e2d04521110427fdab57de5fef5
+SHA256: 77b040e336d2391793c00396d7e28697a0df06e39188155fdd8643c86d9a9488
 Section: 去广告
 Description: An awesome MobileSubstrate tweak!
 Author: hang
 Name: 航の365去广告
 
 Package: com.hang.bdwp
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 108
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/百度网盘去广告-航-arm64.deb
-Size: 15212
-MD5sum: 748c980fafd1cfd94631392da8119758
-SHA1: 6a364d69655ee3adbddbc45df9ef84652eb49497
-SHA256: 824dd05209927c7a825a1f22d4a8a8a6c10a3283b00fdbd07885708c48cde054
+Size: 15300
+MD5sum: f3b332ebce6888767d4dd96416c74b69
+SHA1: e55c256feb8e5a822d0c1ea2f84e2465efd250ec
+SHA256: 0cce03e0c976d510a0b6359351fb68a6fb2e8149e90804662b58be9279c848de
 Section: 去广告
 Description: An awesome MobileSubstrate tweak!
 Author: 航
 Name: 航の百度网盘去广告
 
 Package: com.hang.ktc
-Version: 0.0.1-2+debug
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: hang
 Installed-Size: 128
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/快题词去广告-航-arm64.deb
-Size: 14112
-MD5sum: f014025fabff183b8c945ac0270ce5e7
-SHA1: 7165869070e4c69aaf22ef26c62de723efbbbc60
-SHA256: 1a922a5b1597354d0a4118bae1ecc0620fa3bdc177933cda941904f48e695d85
+Size: 13476
+MD5sum: 89d23fdd907073562b2684469cad646e
+SHA1: 3acaa9429e0d551478eb118295272697359dc821
+SHA256: 318fbf02b9609fe617096c18efa443a5c9449cf74d8492817dac9f007bda2d72
 Section: 去广告
 Description: An awesome MobileSubstrate tweak!
 Author: hang
