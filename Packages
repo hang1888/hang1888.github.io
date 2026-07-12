@@ -1,3 +1,34 @@
+Package: SquidGesturePro
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 航
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/SquidGesturePro_0.0.1_iphoneos-arm64e.deb
+Size: 5268
+MD5sum: 71d6de0d5ed52d77a0f7b810e29a15a4
+SHA1: c1ea6d749a5825745481d4d41fd30985deffcdbe
+SHA256: 36221ee6e8eb3afbafee55d963d6c0f0bc522cae2b84270544c20065bb595336
+Section: 配置备份
+Description: 乌贼手势配置备份/var/mobile/Documents/SGP_backup
+Author: 航
+Name: 乌贼手势配置备份
+
+Package: com.1111
+Version: 0.0.1-151+debug
+Architecture: iphoneos-arm64
+Maintainer: 111
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.1111_0.0.1-151+debug_iphoneos-arm64.deb
+Size: 22766
+MD5sum: eea8db9cf99e32d834b654c161e9ae14
+SHA1: 3d143dc93ceb11ce85486ea1f4fcaf193cfbf37d
+SHA256: ec6f72a14869dd608c19efcb2e86bfda3396e5f41e7d6c2f78676847049d3791
+Section: 自用插件
+Description: An awesome MobileSubstrate tweak!
+Author: 111
+Name: 111
+
 Package: com.be-huge.floating-view
 Version: 1.5.8-7
 Architecture: iphoneos-arm64
@@ -13,10 +44,10 @@ SHA256: e3144e82cad7963dbbdf97aaba9918c2a1c7b28096b284580b3e5f384eb92e48
 Section: 自用插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
-Name: FV分屏
+Name: floatingView
 
 Package: com.h.chajian
-Version: 0.0.1
+Version: 0.0.1-48+debug
 Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 72
@@ -27,12 +58,12 @@ MD5sum: 26e9cdb86ee12644699de71c57a4c24b
 SHA1: f44d0316da20a492d2e4b4d681abf0cf04909cb1
 SHA256: 757c8ad41d3732a52cc353e1504385758957a6b868fc895c08f6922a5fa757fb
 Section: 微信插件
-Description: 微信插件管理头像旋转!
-Author: 航
-Name: 微信插件头像
+Description: An awesome MobileSubstrate tweak!
+Author: h
+Name: chajian
 
 Package: com.h.juju
-Version: 0.0.1
+Version: 0.0.1-30+debug
 Architecture: iphoneos-arm64
 Maintainer: h
 Installed-Size: 80
@@ -43,9 +74,41 @@ MD5sum: 9d9c9f0caea4e5d4c7fa8913ff568d31
 SHA1: 6eff31cf3d3b83eca857c7de28bc3777412a32a3
 SHA256: b4f70ca05e873f1d01e80edfd1f726a037e4fcbc2f9b41b03303e904863f5534
 Section: 微信插件
-Description: 微信助手栏自定义居中!
-Author: 航
-Name: 微信助手居中
+Description: An awesome MobileSubstrate tweak!
+Author: h
+Name: juju
+
+Package: com.hang.365
+Version: 0.0.1-9+debug
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 84
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/icam365去广告-航-arm64.deb
+Size: 6066
+MD5sum: f77b8be5bfea2affec43fb4aabbbba5f
+SHA1: 06515e23c6311661d90cd86b70149949c3a5b507
+SHA256: 205358b0dcb2091f566034c8540702ac381a8a158617efcf03a7aed6e18e9892
+Section: 去广告
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: 航の365去广告
+
+Package: com.hang.ktc
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/快题词去广告-航-arm64.deb
+Size: 14112
+MD5sum: f014025fabff183b8c945ac0270ce5e7
+SHA1: 7165869070e4c69aaf22ef26c62de723efbbbc60
+SHA256: 1a922a5b1597354d0a4118bae1ecc0620fa3bdc177933cda941904f48e695d85
+Section: 去广告
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: 航の快题词去广告
 
 Package: com.huami.WCExtractRes
 Version: 2.7
@@ -59,8 +122,7 @@ SHA256: 03d45baeede5d63b9806bef76f7a35d220ebcb631bbb42b1a123bf1a4a5b9cd8
 Section: 微信插件
 Priority: optional
 Author: huami
-Description:查看微信图标命名
-Name: 微信图标命名
+Name: WCExtractRes
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -73,7 +135,7 @@ Size: 977970
 MD5sum: d70699b93e4c1d86aa21a963427ca3cd
 SHA1: 575137e624ea6d038c4ab4dcc7da9a01ee417fc6
 SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
-Section: 自用插件
+Section: 美化插件
 Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
@@ -91,95 +153,9 @@ MD5sum: ea15ba4c4b1ff26db1a89f9d5e67b5c7
 SHA1: 2d674dbfb6aad8ed042e5207908780de1d0ff31a
 SHA256: cfc200e6d6ec5be8144f4c19e17051dda0fe7724450e082d4b21fb015b129ee6
 Section: 微信插件
-Description: 显示真实未读消息
-Author: 航
-Name: 显示真实消息
-
-Package: com.wkk.lookinloader
-Version: 1.2.8-2
-Architecture: iphoneos-arm64
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.wkk.lookinloader_1.2.8-2_iphoneos-arm64e.deb
-Size: 531052
-MD5sum: 2f99217a6f7462434c99001d91ee7ce0
-SHA1: 9b95700458f3281f36a8e2164d2b801853b03848
-SHA256: 68abdaf89554354ad589d694d954090bfd8eae7b84abc7cd9b96c5d710db3268
-Section: 自用插件
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
-Name: LookinLoader
-
-Package: com.wkk.lookinloader
-Version: 1.2.8-2
-Architecture: iphoneos-arm64
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.wkk.lookinloader_1.2.8-2_iphoneos-arm64.deb
-Size: 525328
-MD5sum: 7d101251b791ccaf54591979fa575797
-SHA1: 65d3460333e78a3fc2e1cb7f0db6b9c43f279cc3
-SHA256: 5ada175421891d9b0b3dc5280fcc74fb780606d0d7dd3a5d09c71da8de769a5d
-Section: 自用插件
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
-Name: LookinLoader
-
-Package: com.yourcompany.color
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 航
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/航-取色器.deb
-Size: 4932
-MD5sum: 11afea9bee9176ac608334b7dc75e7c9
-SHA1: ed49c649b5a67858b7e1086196c4871761b7c82d
-SHA256: e4555207e8c9b48623dcff70d2b72db5b85a40cdc88d5f09eec563527903ae48
-Section: 自用插件
-Description: 很棒的取色器!
-Author: 航
-Name: 颜色取色器
-
-Package: ovh.exerhythm.cardculator
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: sourcelocation
-Installed-Size: 920
-Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
-Filename: debs/Cardculator.2.1.1（计算器）.deb
-Size: 122328
-MD5sum: e79d872b79d0f87aa95437c00edd7845
-SHA1: a4b4418a3e6a969ebd420feaba709f1b927aa5ae
-SHA256: 0aebcd9471bf40ebdea949caad037dea2c6162b3e65ac040d3d52c32dc7700ff
-Section: 自用插件
-Description: Calculator, but smaller
-Author: sourcelocation
-Name: Cardculator计算器
-
-
-
-
-Package: com.1111
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 111
-Installed-Size: 128
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.1111_0.0.1-151+debug_iphoneos-arm64.deb
-Size: 22766
-MD5sum: eea8db9cf99e32d834b654c161e9ae14
-SHA1: 3d143dc93ceb11ce85486ea1f4fcaf193cfbf37d
-SHA256: ec6f72a14869dd608c19efcb2e86bfda3396e5f41e7d6c2f78676847049d3791
-Section: 微信插件
-Description: 微信气泡动画
-Author: 111
-Name: 微信炫彩气泡
+Description: An awesome MobileSubstrate tweak!
+Author: hang
+Name: mingzi
 
 Package: com.netskao.injectipa
 Version: 1.5-7
@@ -197,6 +173,57 @@ Description: InjectIPA Tool
 Author: Netskao
 Name: injectipa
 
+Package: com.wkk.lookinloader
+Version: 1.2.8-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.wkk.lookinloader_1.2.8-2_iphoneos-arm64e.deb
+Size: 531052
+MD5sum: 2f99217a6f7462434c99001d91ee7ce0
+SHA1: 9b95700458f3281f36a8e2164d2b801853b03848
+SHA256: 68abdaf89554354ad589d694d954090bfd8eae7b84abc7cd9b96c5d710db3268
+Section: 美化插件
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
+Name: LookinLoader
+
+Package: com.wkk.lookinloader
+Version: 1.2.8-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.wkk.lookinloader_1.2.8-2_iphoneos-arm64.deb
+Size: 525328
+MD5sum: 7d101251b791ccaf54591979fa575797
+SHA1: 65d3460333e78a3fc2e1cb7f0db6b9c43f279cc3
+SHA256: 5ada175421891d9b0b3dc5280fcc74fb780606d0d7dd3a5d09c71da8de769a5d
+Section: 美化插件
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
+Name: LookinLoader
+
+Package: com.yourcompany.color
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/航-取色器.deb
+Size: 4932
+MD5sum: 11afea9bee9176ac608334b7dc75e7c9
+SHA1: ed49c649b5a67858b7e1086196c4871761b7c82d
+SHA256: e4555207e8c9b48623dcff70d2b72db5b85a40cdc88d5f09eec563527903ae48
+Section: 自用插件
+Description: 很棒的取色器!
+Author: 航
+Name: 航的取色器
+
 Package: dianhuazhushou
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -207,10 +234,26 @@ Size: 3384
 MD5sum: 768e3a408a9f7a4a61aedb39e2739608
 SHA1: a32621e7b7c8b5d66a9ce7334ab4e9a78d76650a
 SHA256: 23d4efd366c40c8d171b2ac415a40247e6d6bd13bbd10a4b1c9955834ded56fe
-Section:插件配置
+Section: 配置备份
 Description: 电话助手配置备份/var/mobile/Media/
 Author: 航
 Name: 电话助手配置备份
+
+Package: ovh.exerhythm.cardculator
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 920
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: debs/Cardculator.2.1.1（计算器）.deb
+Size: 122328
+MD5sum: e79d872b79d0f87aa95437c00edd7845
+SHA1: a4b4418a3e6a969ebd420feaba709f1b927aa5ae
+SHA256: 0aebcd9471bf40ebdea949caad037dea2c6162b3e65ac040d3d52c32dc7700ff
+Section: 美化插件
+Description: Calculator, but smaller
+Author: sourcelocation
+Name: Cardculator
 
 Package: se
 Version: 0.0.1
@@ -222,23 +265,7 @@ Size: 10980
 MD5sum: a2a1e2d901f06e99b6f8311147637540
 SHA1: 0bad5cd8862e07f4d5ddf6dfbf71964ffdd59cc1
 SHA256: f1359b09af6b68c112fbfa1f74a04faad167768ec7db27b1d7a9932d74741f92
-Section:插件配置
+Section: 美化插件
 Description: 乌贼键盘配置备份/var/mobile/Documents/SE_backup
 Author: 航
 Name: 乌贼键盘配置备份
-
-Package: SquidGesturePro
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 航
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/SquidGesturePro_0.0.1_iphoneos-arm64e.deb
-Size: 5268
-MD5sum: 71d6de0d5ed52d77a0f7b810e29a15a4
-SHA1: c1ea6d749a5825745481d4d41fd30985deffcdbe
-SHA256: 36221ee6e8eb3afbafee55d963d6c0f0bc522cae2b84270544c20065bb595336
-Section:插件配置
-Description: 乌贼手势配置备份/var/mobile/Documents/SGP_backup
-Author: 航
-Name: 乌贼手势配置备份
-
