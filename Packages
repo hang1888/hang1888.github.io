@@ -149,12 +149,12 @@ Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/搜狗输入法去广告-航-arm64.deb
-Size: 9634
-MD5sum: 07bc3123d47e88e955f737b3e88153e1
-SHA1: 5d3a9ba594d1c7975a48d9a0f6eda9edd1b16b8b
-SHA256: d39d16b04c6e25f1181f421c9be0b2a798a0c0e8af4761258ca7c63c6dc9b1d0
+Size: 9582
+MD5sum: 4d376ad093ee77ed99b02a0b03d14fcf
+SHA1: 87e8bf5d4c3aceb16be0246a6ec413a8f4b36bc3
+SHA256: aa1deac8a2df3152766801d609ad682ca94dfbf09e64b2b23b17ecd6d67263bf
 Section: 去广告
-Description: 搜狗输入法去广告（GDT/AMS/开屏/激励/原生）；20.11.3
+Description: 搜狗输入法去广告；20.11.3
 Author: 航
 Name: 航の搜狗输入法去广告
 
