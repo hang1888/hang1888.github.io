@@ -165,12 +165,12 @@ Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/喜马拉雅去广告-航-arm64.deb
-Size: 10982
-MD5sum: a05eadd9f74bb612517fcb98610b3ad8
-SHA1: 247e068b40f435a94270223573a3071188b06bea
-SHA256: 167db02e9148320f3f9aef83b6853a514a356771f94b67a06804d6c3cbecdbbf
+Size: 10938
+MD5sum: ee5f4e567717c92bbc89eb216e004e8b
+SHA1: 11108870a24f092a9f490e9bdac1686249cf7de6
+SHA256: 8e65441a9481ef1af6ed93fb9e22e9517110f360fa2103633364efd6b1bf9739
 Section: 去广告
-Description: 喜马拉雅去广告：开屏/贴片/信息流/Banner/激励展示拦截
+Description: 测试版本；9.4.86
 Author: 航
 Name: 航の喜马拉雅去广告
 
