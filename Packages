@@ -160,15 +160,15 @@ Name: 航の搜狗输入法去广告
 
 Package: com.hang.xmly
 Version: 1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/喜马拉雅去广告-航-arm64.deb
-Size: 10938
-MD5sum: ee5f4e567717c92bbc89eb216e004e8b
-SHA1: 11108870a24f092a9f490e9bdac1686249cf7de6
-SHA256: 8e65441a9481ef1af6ed93fb9e22e9517110f360fa2103633364efd6b1bf9739
+Size: 11008
+MD5sum: ab510f03112fad43863904dab5112218
+SHA1: f853ac55710e078d2a8a73e51eb8a81e61ad3f08
+SHA256: 6dd6e2ba0e046331e2409fc2e1477e9acba38bea6abf5cf4d4dc0c2b94b9b568
 Section: 去广告
 Description: 测试版本；9.4.86
 Author: 航
