@@ -158,6 +158,22 @@ Description: 测试版本；20.11.3
 Author: 航
 Name: 航の搜狗输入法去广告
 
+Package: com.hang.xmly
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/喜马拉雅去广告-航-arm64.deb
+Size: 10982
+MD5sum: a05eadd9f74bb612517fcb98610b3ad8
+SHA1: 247e068b40f435a94270223573a3071188b06bea
+SHA256: 167db02e9148320f3f9aef83b6853a514a356771f94b67a06804d6c3cbecdbbf
+Section: 去广告
+Description: 喜马拉雅去广告：开屏/贴片/信息流/Banner/激励展示拦截
+Author: 航
+Name: 航の喜马拉雅去广告
+
 Package: com.huami.WCExtractRes
 Version: 2.7
 Architecture: iphoneos-arm64
