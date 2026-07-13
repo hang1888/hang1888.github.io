@@ -143,16 +143,16 @@ Author: 航
 Name: 航の快题词去广告
 
 Package: com.hang.sgsrf
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/搜狗输入法去广告-航-arm64.deb
-Size: 9630
-MD5sum: 0392347270da76a168849577c0cb9306
-SHA1: 0f0fe8181fa0d341789ca788f65f2bd14b8d0753
-SHA256: 404b47d972f8819a967d5b5c705864587c131bc191e4fa788949b525ecd889fd
+Size: 9634
+MD5sum: 07bc3123d47e88e955f737b3e88153e1
+SHA1: 5d3a9ba594d1c7975a48d9a0f6eda9edd1b16b8b
+SHA256: d39d16b04c6e25f1181f421c9be0b2a798a0c0e8af4761258ca7c63c6dc9b1d0
 Section: 去广告
 Description: 搜狗输入法去广告（GDT/AMS/开屏/激励/原生）；20.11.3
 Author: 航
