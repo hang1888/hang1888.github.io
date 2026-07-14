@@ -158,6 +158,22 @@ Description: 测试版本；20.11.3
 Author: 航
 Name: 航の搜狗输入法去广告
 
+Package: com.hang.tubiao
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 348
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/锁屏时间自定义-航-arm64.deb
+Size: 13076
+MD5sum: 0dc3dbfd0483aacb859676f10d2a338d
+SHA1: 44c156ed0efdd31efef2556fdad139c905f40124
+SHA256: ac30589293e94c660699f1ca8d73952a2119cea413d83c1a7cdb57320975be05
+Section: 自用插件
+Description: 自定义锁屏时间/日期位置与大小
+Author: 航
+Name: 锁屏时间自定义
+
 Package: com.hang.xmly
 Version: 1.0
 Architecture: iphoneos-arm64
