@@ -126,6 +126,22 @@ Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
+Package: com.hang.gjl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信工具栏圆角-航-arm64e.deb
+Size: 6618
+MD5sum: 2a5562454ea006fdd5807ee50c96d5b8
+SHA1: 29e549af3483fbf3c42aca5080e6bf9640f82c07
+SHA256: d995dc3ec9e747a580743ae4a6d710fbe86bf7c286ae8075e04bd8fb59887234
+Section: 微信插件
+Description: 微信工具栏圆角
+Author: 航
+Name: 微信工具栏圆角
+
 Package: com.hang.ktc
 Version: 1.0.1
 Architecture: iphoneos-arm64
