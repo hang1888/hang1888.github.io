@@ -19,27 +19,29 @@ blocks = [b for b in text.split("\n\n") if b.strip()]
 
 def section_for(block: str) -> str:
     lower = block.lower()
-    # 去广告优先
+    # 广告优先
     if any(k in lower for k in [
         "去广告", "ktc", "com.hang.365", "icam365", "fastword", "teleprompter", "adblock", "noad"
     ]):
-        return "去广告"
+        return "广告"
+    # 指定工具插件
+    if any(k in lower for k in [
+        "com.lclrc.hammerit", "hammer it",
+        "com.wkk.lookinloader", "lookinloader",
+        "com.be-huge.floating-view", "floatingview"
+    ]):
+        return "插件"
     # 微信插件
     if any(k in lower for k in [
         "wechat", "weixin", "微信", "wcextract", "未读消息", "助手栏"
     ]):
         return "微信插件"
-    # 美化插件
-    if any(k in lower for k in [
-        "cc", "scan", "alipay", "theme", "美化", "净化"
-    ]):
-        return "美化插件"
     # 配置备份
     if any(k in lower for k in [
         "data", "back", "备份"
     ]):
         return "配置备份"
-    return "自用插件"
+    return "自用"
 
 out = []
 for block in blocks:
@@ -64,4 +66,4 @@ PY
 bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
 
-echo "✅ 分类完成：去广告 / 微信插件 / 美化插件 / 配置备份 / 自用插件"
+echo "✅ 分类完成：广告 / 插件 / 微信插件 / 配置备份 / 自用"
