@@ -24,6 +24,11 @@ def section_for(block: str) -> str:
         "去广告", "ktc", "com.hang.365", "icam365", "fastword", "teleprompter", "adblock", "noad"
     ]):
         return "广告"
+    # 补丁（放在通用插件规则之前）
+    if any(k in lower for k in [
+        "补丁", "patch", "ios17fix", "tweakinject"
+    ]):
+        return "补丁"
     # 指定工具插件
     if any(k in lower for k in [
         "com.lclrc.hammerit", "hammer it",
@@ -66,4 +71,4 @@ PY
 bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
 
-echo "✅ 分类完成：广告 / 插件 / 微信插件 / 配置备份 / 自用"
+echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信插件 / 配置备份 / 自用"
