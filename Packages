@@ -63,6 +63,24 @@ Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
+Package: com.hang.kayoko
+Version: 4.4.1
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 1720
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/com.hang.kayoko_4.4.1_iphoneos-arm64e.deb
+Size: 475690
+MD5sum: 4cd9d205d33889db3f478457989ae9d5
+SHA1: 6dcfba69ba97a7453849970f84adf0553b9bac90
+SHA256: 0560eff77f3b479b2b4e3384fd9f5df20be9698d5073984928828d193a0a4e81
+Section: 自用
+Description: 感谢kayoko开源，魔改自用
+Author: 航
+Name: Kayoko
+
 Package: com.hang.ktc
 Version: 1.0.1
 Architecture: iphoneos-arm64
