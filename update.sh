@@ -5,9 +5,8 @@ export LANG=en_US.UTF-8
 # 1. 扫描插件
 dpkg-scanpackages -m debs > Packages
 
-# 2. 修正路径和架构
+# 2. 修正路径（架构必须保留 deb 内的真实值，否则 arm64e/roothide 装不上）
 sed -i '' 's|Filename: .*/debs/|Filename: debs/|g' Packages
-sed -i '' 's/Architecture: iphoneos-arm64e/Architecture: iphoneos-arm64/g' Packages
 
 # 3. 按包块重写分类
 python3 - <<'PY'

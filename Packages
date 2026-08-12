@@ -1,6 +1,6 @@
 Package: com.be-huge.floating-view
 Version: 1.5.8-7
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 3344
 Pre-Depends: rootless-compat(>= 0.9)
@@ -17,7 +17,7 @@ Name: floatingView
 
 Package: com.be-huge.insulation
 Version: 0.1.35
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: doimty
 Installed-Size: 596
 Depends: firmware (>= 15.0)
@@ -65,7 +65,7 @@ Name: 航の百度网盘去广告
 
 Package: com.hang.kayoko
 Version: 4.4.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 1720
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -83,7 +83,7 @@ Name: Kayoko
 
 Package: com.hang.kayoko
 Version: 4.4.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 1720
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -133,7 +133,7 @@ Name: 航の搜狗输入法去广告
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 1.0.10
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
@@ -214,7 +214,7 @@ Name: injectipa
 
 Package: com.wkk.lookinloader
 Version: 1.2.8-2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 4332
 Pre-Depends: rootless-compat(>= 0.9)
