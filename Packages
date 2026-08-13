@@ -26,7 +26,7 @@ Size: 57024
 MD5sum: 548758f431fed3ae2df216bb491d6c62
 SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
 SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
-Section: 自用
+Section: 插件
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Author: be-huge & doimty
 Name: insulation
