@@ -64,16 +64,16 @@ Author: 航
 Name: 航の百度网盘去广告
 
 Package: com.hang.kaiguan
-Version: 9.10
+Version: 9.11
 Architecture: iphoneos-arm64e
 Maintainer: 航
-Installed-Size: 480
+Installed-Size: 484
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/航の开关-航-arm64e.deb
-Size: 108294
-MD5sum: 5d7fd98f6289c32132ad77999de544ac
-SHA1: d67bfd0cbb8d1376e254ca7c96abd2643ea31069
-SHA256: 3960384179bbdf3cdd14a2b4173afa472c6050171c1fc20448b3bc09e4c4db4f
+Size: 111922
+MD5sum: 7c96a494a0c7928de3fca5378d0d253f
+SHA1: 3a2fd7e3ade0220d5d5f82f902db0f8fd3faaab9
+SHA256: 5c4ad9da6e9653f90cec19bad36a50b08f834936177cc348719db4d23a4a18ad
 Section: 自用
 Description: 自用开关，有问题请卸载。
 Author: 航
