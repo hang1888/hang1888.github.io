@@ -32,7 +32,6 @@ def section_for(block: str) -> str:
     if any(k in lower for k in [
         "com.lclrc.hammerit", "hammer it",
         "com.wkk.lookinloader", "lookinloader",
-        "com.be-huge.floating-view", "floatingview",
         "com.be-huge.insulation", "insulation"
     ]):
         return "插件"

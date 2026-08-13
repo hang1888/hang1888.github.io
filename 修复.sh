@@ -19,7 +19,6 @@ sed -i '' '/Package: com.mingzi/,/Section:/ s/Section: .*/Section: 微信插件/
 sed -i '' '/Package: com.yourcompany.color/,/Section:/ s/Section: .*/Section: 微信插件/' Packages
 
 # 自用类
-sed -i '' '/Package: com.be-huge.floating-view/,/Section:/ s/Section: .*/Section: 自用插件/' Packages
 sed -i '' '/Package: com.lclrc.hammerit/,/Section:/ s/Section: .*/Section: 自用插件/' Packages
 sed -i '' '/Package: ovh.exerhythm.cardculator/,/Section:/ s/Section: .*/Section: 自用插件/' Packages
 sed -i '' '/Package: com.wkk.lookinloader/,/Section:/ s/Section: .*/Section: 自用插件/' Packages
