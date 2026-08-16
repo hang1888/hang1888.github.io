@@ -133,18 +133,18 @@ Author: 航
 Name: 航の搜狗输入法去广告
 
 Package: com.hang.squidgesturepro-ios17fix
-Version: 1.0.10
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
-Filename: debs/com.hang.squidgesturepro-ios17fix_1.0.10_iphoneos-arm64e.deb
-Size: 11276
-MD5sum: 3ef0db9c0d28bb4a7a5403410ee50acf
-SHA1: 8a1c749d55ec3af3ed9299dcb508f8f2743472c3
-SHA256: a8726eabfd1a5428059fd5b28b6ac454a1700c129e1f1398c07d15c862ff4670
+Filename: debs/com.hang.squidgesturepro-ios17fix_1.1_iphoneos-arm64e.deb
+Size: 12458
+MD5sum: 9b93df9177c04752f1f11303dd5133ae
+SHA1: 4213bcb4844740f468c9e268e781666eaa6d33cd
+SHA256: ae9e099c754e582830707991f9bdf2c9487a7d1222078737530f489cb62dac0d
 Section: 补丁
-Description: 修复 SquidGesturePro 在 iOS 17 启动快捷指令时导致的安全模式。
+Description: 修复 SquidGesturePro 在 iOS 17 状态栏不生效与启动快捷指令时导致的安全模式。
 Author: 航
 Name: 乌贼手势 iOS 17 补丁
 
@@ -226,7 +226,7 @@ MD5sum: 2f99217a6f7462434c99001d91ee7ce0
 SHA1: 9b95700458f3281f36a8e2164d2b801853b03848
 SHA256: 68abdaf89554354ad589d694d954090bfd8eae7b84abc7cd9b96c5d710db3268
 Section: 插件
-Description: Lookin UI调试工具。自用备份。
+Description: Lookin UI调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://s1.imagehub.cc/images/2025/12/31/5db59b1666f1a481073f8036079dccc3.jpeg
 Name: LookinLoader
