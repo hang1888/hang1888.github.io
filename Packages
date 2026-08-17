@@ -100,6 +100,24 @@ Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
 
+Package: com.hang.kayoko
+Version: 4.4.3
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 3096
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/com.hang.kayoko_4.4.3_iphoneos-arm64e.deb
+Size: 749440
+MD5sum: 6cb012e36cd365df24fcea86cbd5db98
+SHA1: e50b5fae953906e9c577d8acf0d5676aa91c886b
+SHA256: aeacf41c0850e06444a705e3fb65a3f57f8caeaacefb7f63046d7f7fe573eaed
+Section: 自用
+Description: 感谢kayoko开源，魔改自用
+Author: 航
+Name: Kayoko
+
 Package: com.hang.ktc
 Version: 1.0.1
 Architecture: iphoneos-arm64
