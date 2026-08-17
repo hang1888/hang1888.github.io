@@ -133,18 +133,20 @@ Author: 航
 Name: 航の搜狗输入法去广告
 
 Package: com.hang.squidgesturepro-ios17fix
-Version: 1.2
+Version: 2.3
 Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
-Filename: debs/com.hang.squidgesturepro-ios17fix_1.2_iphoneos-arm64e.deb
-Size: 12466
-MD5sum: 92d249b792548349eb1756ca6ca49433
-SHA1: 91453ea235bfc5639ef2a31fc8078d64f8decc93
-SHA256: 59b821528b062c1e4e61398dc4be0e5bad9261d6fc259aaf3cd6e1bff172cc4e
+Conflicts: com.codex.squidgesture17fix
+Filename: debs/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e.deb
+Size: 14942
+MD5sum: 3c941e0431c92d96b9efee635715cc84
+SHA1: 1ec83df36751496447dab25cdafc7719d9db30d6
+SHA256: ecb5cb35b8fa79f0cc957c68208d8239fdca79143b227e275589cc62594d99cd
 Section: 补丁
-Description: 修复 SquidGesturePro 在 iOS 17 状态栏不生效与启动快捷指令时导致的安全模式。
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
 Author: 航
 Name: 乌贼手势 iOS 17 补丁
 
