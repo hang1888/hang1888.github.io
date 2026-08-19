@@ -1,6 +1,6 @@
 Package: com.be-huge.insulation
 Version: 0.1.38.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: doimty
 Installed-Size: 780
 Depends: firmware (>= 15.0)
@@ -48,7 +48,7 @@ Name: 航の百度网盘去广告
 
 Package: com.hang.kaiguan
 Version: 1.2
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 624
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -66,7 +66,7 @@ Name: 航の开关
 
 Package: com.hang.kayoko
 Version: 4.4.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 1720
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -84,7 +84,7 @@ Name: Kayoko
 
 Package: com.hang.kayoko
 Version: 4.4.2
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 1720
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -102,7 +102,7 @@ Name: Kayoko
 
 Package: com.hang.kayoko
 Version: 4.4.3
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 3096
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -120,7 +120,7 @@ Name: Kayoko
 
 Package: com.hang.kayoko
 Version: 4.4.4
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 3096
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -138,7 +138,7 @@ Name: Kayoko
 
 Package: com.hang.kayoko
 Version: 4.4.8
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 3116
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -149,6 +149,24 @@ Size: 756620
 MD5sum: 86d5dc125bd72435a8868485704a1bbc
 SHA1: a856527f6e4aa760b581ba335d378e29144a12d4
 SHA256: 61e46bdb69dfb1b8b65fdcf0420ea53c6c0f746707da59dcc489c2930bd0ef02
+Section: 自用
+Description: 感谢kayoko开源，魔改自用
+Author: 航
+Name: Kayoko
+
+Package: com.hang.kayoko
+Version: 4.5.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 3144
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/com.hang.kayoko_4.5.0_iphoneos-arm64e.deb
+Size: 760522
+MD5sum: 6cd84f52b375e6198ac046ae6a2cf7d0
+SHA1: bdde9ee16f0c426ddfecb47932a856d64c0ff21c
+SHA256: 7fec29d94b72613a8c907c6c4e6327460db549663f7323cac12d6aad88f1afda
 Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
@@ -188,7 +206,7 @@ Name: 航の搜狗输入法去广告
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
@@ -271,7 +289,7 @@ Name: injectipa
 
 Package: com.wkk.lookinloader
 Version: 1.2.8-2
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 4332
 Pre-Depends: rootless-compat(>= 0.9)
