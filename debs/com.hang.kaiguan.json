@@ -8,7 +8,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "# 航の开关\n\n为系统开关替换动态样式。当前提供 13 种开关样式，适配 RootHide arm64e。"
+          "markdown": "# 航の开关\n\n为系统开关替换动态样式。当前提供 14 种开关样式，适配 RootHide arm64e。"
         }
       ]
     }
