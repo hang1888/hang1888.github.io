@@ -60,6 +60,12 @@ for block in blocks:
             new_lines.append(line)
     if not replaced:
         new_lines.append(f"Section: {section_for(block)}")
+
+    # 航の开关使用独立 Sileo depiction，避免重新扫描时恢复旧图片链接。
+    if any(line.startswith("Package: com.hang.kaiguan") for line in new_lines):
+        new_lines = [line for line in new_lines if not line.startswith("Depiction:")]
+        new_lines.append("Depiction: https://hang1888.github.io/debs/com.hang.kaiguan.json")
+
     out.append("\n".join(new_lines))
 
 path.write_text("\n\n".join(out) + "\n", encoding="utf-8")

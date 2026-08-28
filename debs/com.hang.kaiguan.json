@@ -1,0 +1,23 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#2ECC71",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "# 航の开关\n\n为系统开关替换动态样式。当前提供 13 种开关样式，适配 RootHide arm64e。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 更新日志\n\n### 1.7\n\n- 新增「柔光环绕」开关样式。\n- 光带沿开关外轮廓缓慢环绕，避免整体飞出。\n- 优化浅色背景、绿色光圈和开启动画。\n- 移除设置页底部「航 · 自用」一行。\n\n### 1.2\n\n- 保留原有日月、条纹、飞机、星轨、液态和光环等样式。"
+        }
+      ]
+    }
+  ]
+}
