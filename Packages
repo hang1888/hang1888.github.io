@@ -46,17 +46,67 @@ Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
-Package: com.hang.kaiguan
-Version: 2.0
+Package: com.hang.jxedtad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.jxedtad_1.0_iphoneos-arm64.deb
+Size: 12228
+MD5sum: f8a44ea5bd879fb39c7ccb2c4b20e109
+SHA1: c587c5b88622ca3f5fd3bc67bc2d8f3fb5c8d3c0
+SHA256: 131d763963df02145f351987a0fd6c24b486b883733ea26a05940f67e488ba3c
+Section: 广告
+Description: 测试版本；18.6.1
+Author: 航
+Name: 航の驾校一点通去广告
+
+Package: com.hang.jxedtad
+Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 航
-Installed-Size: 1704
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.jxedtad_1.0_iphoneos-arm64e.deb
+Size: 12432
+MD5sum: 2f419ecbb5077f8667faf30756dd4b13
+SHA1: 09ff75d6c01065e9eb3d8f493a736c5a0741fa51
+SHA256: 223192ed412916955fa872c6b25ce3fcf17657ed86ac4d08ef2964e3f6695074
+Section: 广告
+Description: 测试版本；18.6.1
+Author: 航
+Name: 航の驾校一点通去广告
+
+Package: com.hang.kaiguan
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 976
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/航の开关-航-arm64.deb
+Size: 306308
+MD5sum: 3da7d634796e587b23e583e5a601263e
+SHA1: 3501107c6c481552e7022cd35ff2e9cc6d2b2d9b
+SHA256: 758b794ec444ab5a936870ae546128e9be78436a976c930efc2a30a5e7ed8f78
+Section: 自用
+Description: 自用开关，有问题请卸载。
+Author: 航
+Icon: https://hang1888.github.io/debs/com.hang.kaiguan-icon.jpg
+Name: 航の开关
+Depiction: https://hang1888.github.io/debs/com.hang.kaiguan.json
+
+Package: com.hang.kaiguan
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 972
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/航の开关-航-arm64e.deb
-Size: 426644
-MD5sum: 40d8b735c8ae76092d920833598f80a6
-SHA1: 12803b72d09efbc8ce07e6fd158bfc1797d29548
-SHA256: 2824d45808145fb0d4880e3eda05e3c213b014557e110f9f486fb1607feca73d
+Size: 304838
+MD5sum: edb7dd2960cca4bfa64c75fa3b38849a
+SHA1: 10380bfaa6ef273ea40102142a3b3e606d27c855
+SHA256: 637f36c6405971ea9ef331a5a38503472ce112d076499dcd6789d455e7490633
 Section: 自用
 Description: 自用开关，有问题请卸载。
 Author: 航
@@ -659,35 +709,3 @@ Section: 自用
 Description: Calculator, but smaller
 Author: sourcelocation
 Name: Cardculator
-
-Package: com.hang.jxedtad
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 航
-Installed-Size: 92
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.hang.jxedtad_1.0_iphoneos-arm64.deb
-Size: 12228
-MD5sum: f8a44ea5bd879fb39c7ccb2c4b20e109
-SHA1: c587c5b88622ca3f5fd3bc67bc2d8f3fb5c8d3c0
-SHA256: 131d763963df02145f351987a0fd6c24b486b883733ea26a05940f67e488ba3c
-Section: 广告
-Description: 测试版本；18.6.1
-Author: 航
-Name: 航の驾校一点通去广告
-
-Package: com.hang.jxedtad
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 航
-Installed-Size: 92
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.hang.jxedtad_1.0_iphoneos-arm64e.deb
-Size: 12432
-MD5sum: 2f419ecbb5077f8667faf30756dd4b13
-SHA1: 09ff75d6c01065e9eb3d8f493a736c5a0741fa51
-SHA256: 223192ed412916955fa872c6b25ce3fcf17657ed86ac4d08ef2964e3f6695074
-Section: 广告
-Description: 测试版本；18.6.1
-Author: 航
-Name: 航の驾校一点通去广告
