@@ -79,16 +79,16 @@ Author: 航
 Name: 航の驾校一点通去广告
 
 Package: com.hang.kaiguan
-Version: 2.2
+Version: 2.3
 Architecture: iphoneos-arm64
 Maintainer: 航
-Installed-Size: 976
+Installed-Size: 1820
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/航の开关-航-arm64.deb
-Size: 306308
-MD5sum: 3da7d634796e587b23e583e5a601263e
-SHA1: 3501107c6c481552e7022cd35ff2e9cc6d2b2d9b
-SHA256: 758b794ec444ab5a936870ae546128e9be78436a976c930efc2a30a5e7ed8f78
+Size: 422814
+MD5sum: 86b4ccf0012829fefa68f6134d1b625a
+SHA1: 68099b0f95190c150c43054caa5c80c1d3b20dcb
+SHA256: 073142ba2be7236e9c57db4f998123dcd3424c8bf8ac06dfb5efe9aebeed113d
 Section: 自用
 Description: 自用开关，有问题请卸载。
 Author: 航
@@ -97,16 +97,16 @@ Name: 航の开关
 Depiction: https://hang1888.github.io/debs/com.hang.kaiguan.json
 
 Package: com.hang.kaiguan
-Version: 2.2
+Version: 2.3
 Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 972
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/航の开关-航-arm64e.deb
-Size: 304838
-MD5sum: edb7dd2960cca4bfa64c75fa3b38849a
-SHA1: 10380bfaa6ef273ea40102142a3b3e606d27c855
-SHA256: 637f36c6405971ea9ef331a5a38503472ce112d076499dcd6789d455e7490633
+Size: 304814
+MD5sum: d5d63eebfb550cf7490391f8b40883d4
+SHA1: 282bca30d55b8821899023fcdb61edaf76c544c9
+SHA256: 8844efd77173c7910ce7d885ac769c89e8281791fbd1e3330b1aa2ac0a8086fc
 Section: 自用
 Description: 自用开关，有问题请卸载。
 Author: 航
