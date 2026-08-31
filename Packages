@@ -46,6 +46,38 @@ Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
+Package: com.hang.cmccad
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/中国移动去广告-航-arm64e.deb
+Size: 8366
+MD5sum: c6d85bb958366f82f13455727691454b
+SHA1: 74f8908d54180b4368a6e52c2f14d451b681e174
+SHA256: 6e24f1f70413510138f69ca5ed3526f4e7c43ed181d6ea5a843a07935efaa830
+Section: 广告
+Description: 测试版本；12.5.2
+Author: 航
+Name: 航の中国移动去广告
+
+Package: com.hang.cmccad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/中国移动去广告-航-arm64.deb
+Size: 8130
+MD5sum: fe8a8d6f04488d79f4cfa7df1fd08ad9
+SHA1: 8818c8e82dc34b814f535098b4030891ac99b71b
+SHA256: 2f62dc5d82c98e6cebee6e75b08692edca100c56ff2d9bd771fa572a909b4f2c
+Section: 广告
+Description: 测试版本；12.5.2
+Author: 航
+Name: 航の中国移动去广告
+
 Package: com.hang.jxedtad
 Version: 1.0
 Architecture: iphoneos-arm64
