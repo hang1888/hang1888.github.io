@@ -68,9 +68,9 @@ for block in blocks:
 
     # Kayoko 使用独立 Sileo depiction，展示当前版本和更新内容。
     if any(line.startswith("Package: com.hang.kayoko") for line in new_lines):
-        new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:")]
+        new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://wx.qlogo.cn/mmhead/ver_1/pjk7k2zNPqD45kq8cTibic6DgHzGtrKkwhayhOw9aOn68N2bNdtUIcPITj6egdMcP2cIEm57e2xvO6pRibuwJ3yOX4ctOSKXtpnrEw3BTBYRaD9URzDw8x08okXXbb3GK1r/132")
-        new_lines.append("Depiction: https://hang1888.github.io/depictions/native/com.hang.kayoko/depiction.json")
+        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.kayoko/depiction.json")
 
     out.append("\n".join(new_lines))
 
