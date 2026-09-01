@@ -66,6 +66,11 @@ for block in blocks:
         new_lines = [line for line in new_lines if not line.startswith("Depiction:")]
         new_lines.append("Depiction: https://hang1888.github.io/debs/com.hang.kaiguan.json")
 
+    # Kayoko 使用独立 Sileo depiction，展示当前版本和更新内容。
+    if any(line.startswith("Package: com.hang.kayoko") for line in new_lines):
+        new_lines = [line for line in new_lines if not line.startswith("Depiction:")]
+        new_lines.append("Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json")
+
     out.append("\n".join(new_lines))
 
 path.write_text("\n\n".join(out) + "\n", encoding="utf-8")

@@ -163,6 +163,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.4.2
@@ -181,6 +182,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.4.3
@@ -199,6 +201,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.4.4
@@ -217,6 +220,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.4.8
@@ -235,6 +239,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.0
@@ -253,6 +258,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.5
@@ -271,6 +277,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.6
@@ -289,6 +296,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.6
@@ -307,6 +315,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.7
@@ -325,6 +334,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.7
@@ -343,6 +353,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.8
@@ -361,6 +372,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.8
@@ -379,6 +391,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.9
@@ -397,6 +410,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.5.9
@@ -415,6 +429,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.0
@@ -433,6 +448,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.0
@@ -451,6 +467,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.1
@@ -469,6 +486,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.1
@@ -487,6 +505,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.2
@@ -505,6 +524,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.2
@@ -523,6 +543,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.3
@@ -541,6 +562,7 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.kayoko
 Version: 4.6.3
@@ -559,6 +581,45 @@ Section: 自用
 Description: 感谢kayoko开源，魔改自用
 Author: 航
 Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
+
+Package: com.hang.kayoko
+Version: 4.6.5
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 3164
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/com.hang.kayoko_4.6.5_iphoneos-arm64.deb
+Size: 668844
+MD5sum: dfa4c0f57f47a9ca896ed2312245cbd4
+SHA1: c4cb6ec2b3e374a03bdce87773a6db37a027b51c
+SHA256: c27310956bc213958a9b7251e8cac3320b48d0cb31aebc19afe873d521133d9a
+Section: 自用
+Description: 感谢kayoko开源，魔改自用
+Author: 航
+Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
+
+Package: com.hang.kayoko
+Version: 4.6.5
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 1752
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/com.hang.kayoko_4.6.5_iphoneos-arm64e.deb
+Size: 489480
+MD5sum: 2b50ea77780b1a4c3ebc2ae831bcd67b
+SHA1: a9e9e56d91250e318f8917cfbbc9bd9919a9d05b
+SHA256: c089fac120176645e7cde5b2498d30914e4f5ce19217401dd45efc431a186adc
+Section: 自用
+Description: 感谢kayoko开源，魔改自用
+Author: 航
+Name: Kayoko
+Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json
 
 Package: com.hang.ktc
 Version: 1.0.1

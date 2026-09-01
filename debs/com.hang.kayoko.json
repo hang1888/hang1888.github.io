@@ -1,0 +1,86 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "http://lai28.988456.xyz/img/cover.png",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Kayoko 剪贴板管理器\n\n保存、查看、搜索和快速粘贴剪贴板历史，支持历史记录、收藏夹与分类筛选。"
+        },
+        {
+          "spacing": 0,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "版本",
+          "text": "4.6.5",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "兼容性",
+          "text": "iOS 14.0 及以上",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "开发者",
+          "text": "航",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "更新时间",
+          "text": "2026/09/01",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "文件大小",
+          "text": "Rootless 668.84 KB / RootHide 489.48 KB",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "spacing": 0,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "更新",
+      "views": [
+        {
+          "title": "4.6.5",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 新增左上角一键置顶按钮\n- 点击后直接回到当前列表第一条\n- 保持搜索框隐藏，不会被一并带出来\n- 左上角图标改为简洁的 chevron.up 风格",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "公告",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 源内插件仅供个人学习研究\n- 严禁用于任何商业利益或其它非法活动\n- 因使用不当而造成的一切后果或法律纠纷均由个人承担\n- 请于 24 小时内自行删除"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
