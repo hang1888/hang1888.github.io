@@ -2,8 +2,8 @@ Origin:                         
 Label:航
 Description: 航
 Suite: stable
-Version: 1.1
-Date: Tue, 01 Sep 2026 22:14:31 +0800
+Version: 1.2
+Date: Tue, 01 Sep 2026 22:44:15 +0800
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Codename: ios15
