@@ -3,6 +3,29 @@
   "headerImage": "https://wx.qlogo.cn/mmhead/ver_1/pjk7k2zNPqD45kq8cTibic6DgHzGtrKkwhayhOw9aOn68N2bNdtUIcPITj6egdMcP2cIEm57e2xvO6pRibuwJ3yOX4ctOSKXtpnrEw3BTBYRaD9URzDw8x08okXXbb3GK1r/132",
   "tabs": [
     {
+      "tabname": "更新",
+      "views": [
+        {
+          "title": "4.6.5",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 新增左上角一键置顶按钮\n- 点击后直接回到当前列表第一条",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
       "tabname": "详情",
       "views": [
         {
@@ -43,29 +66,6 @@
         },
         {
           "spacing": 0,
-          "class": "DepictionSpacerView"
-        }
-      ],
-      "class": "DepictionStackView"
-    },
-    {
-      "tabname": "更新",
-      "views": [
-        {
-          "title": "4.6.5",
-          "useBoldText": true,
-          "useSpacing": false,
-          "useBottomMargin": false,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "markdown": "- 新增左上角一键置顶按钮\n- 点击后直接回到当前列表第一条\n- 保持搜索框隐藏，不会被一并带出来\n- 左上角图标改为简洁的 chevron.up 风格",
-          "useSpacing": false,
-          "useBottomMargin": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "spacing": 20,
           "class": "DepictionSpacerView"
         }
       ],
