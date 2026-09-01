@@ -7,6 +7,7 @@ echo "--- 正在打包并上传（不扫描新插件） ---"
 echo "正在生成压缩包..."
 bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
+xz -c9 Packages > Packages.xz
 
 # 2. 修正权限
 sudo chown -R hang:staff ./*.sh ./Packages* ./Release ./debs

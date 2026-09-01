@@ -81,5 +81,6 @@ PY
 # 4. 压缩
 bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
+xz -c9 Packages > Packages.xz
 
 echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信插件 / 配置备份 / 自用"
