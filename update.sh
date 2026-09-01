@@ -70,7 +70,7 @@ for block in blocks:
     if any(line.startswith("Package: com.hang.kayoko") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:")]
         new_lines.append("Icon: https://wx.qlogo.cn/mmhead/ver_1/pjk7k2zNPqD45kq8cTibic6DgHzGtrKkwhayhOw9aOn68N2bNdtUIcPITj6egdMcP2cIEm57e2xvO6pRibuwJ3yOX4ctOSKXtpnrEw3BTBYRaD9URzDw8x08okXXbb3GK1r/132")
-        new_lines.append("Depiction: https://hang1888.github.io/debs/com.hang.kayoko.json")
+        new_lines.append("Depiction: https://hang1888.github.io/depictions/native/com.hang.kayoko/depiction.json")
 
     out.append("\n".join(new_lines))
 
