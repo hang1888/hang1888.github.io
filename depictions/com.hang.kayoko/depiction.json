@@ -6,6 +6,23 @@
       "tabname": "更新",
       "views": [
         {
+          "title": "4.6.6",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 修复搜索结果左滑收藏触发安全模式\n- 修复 NewTerm 粘贴无效果",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        },
+        {
           "title": "4.6.5",
           "useBoldText": true,
           "useSpacing": false,
@@ -41,7 +58,7 @@
         },
         {
           "title": "版本",
-          "text": "4.6.5",
+          "text": "4.6.6",
           "class": "DepictionTableTextView"
         },
         {
@@ -56,12 +73,12 @@
         },
         {
           "title": "更新时间",
-          "text": "2026/09/01",
+          "text": "2026/09/02",
           "class": "DepictionTableTextView"
         },
         {
           "title": "文件大小",
-          "text": "Rootless 668.84 KB / RootHide 489.48 KB",
+          "text": "Rootless 652.28 KB / RootHide 478.12 KB",
           "class": "DepictionTableTextView"
         },
         {
