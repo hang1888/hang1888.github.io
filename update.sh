@@ -70,7 +70,7 @@ for block in blocks:
     if any(line.startswith("Package: com.hang.kayoko") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://hang1888.github.io/Icon/Kayoko.png?v=4.6.6-assets-2")
-        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.kayoko/depiction.json?v=4.6.7")
+        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.kayoko/depiction.json?v=4.6.8")
 
     out.append("\n".join(new_lines))
 

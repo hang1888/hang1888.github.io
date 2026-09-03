@@ -6,6 +6,23 @@
       "tabname": "更新",
       "views": [
         {
+          "title": "4.6.8",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 优化面板分类弹出卡顿",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        },
+        {
           "title": "4.6.7",
           "useBoldText": true,
           "useSpacing": false,
@@ -75,7 +92,7 @@
         },
         {
           "title": "版本",
-          "text": "4.6.7",
+          "text": "4.6.8",
           "class": "DepictionTableTextView"
         },
         {
@@ -90,12 +107,12 @@
         },
         {
           "title": "更新时间",
-          "text": "2026/09/02",
+          "text": "2026/09/03",
           "class": "DepictionTableTextView"
         },
         {
           "title": "文件大小",
-          "text": "Rootless 623.19 KB / RootHide 457.31 KB",
+          "text": "Rootless 624.84 KB / RootHide 459.41 KB",
           "class": "DepictionTableTextView"
         },
         {
