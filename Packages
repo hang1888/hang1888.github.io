@@ -93,8 +93,8 @@ Section: 自用
 Description: dyyy魔改版
 Author: 航
 Name: 抖音Pro
-Icon: https://hang1888.github.io/Icon/DouyinPro.png?v=0.0.64-assets-1
-Sileodepiction: https://hang1888.github.io/depictions/com.hang.douyinclockdock/depiction.json?v=0.0.64-assets-1
+Icon: https://hang1888.github.io/Icon/DouyinPro.png?v=0.0.64-assets-2
+Sileodepiction: https://hang1888.github.io/depictions/com.hang.douyinclockdock/depiction.json?v=0.0.64-assets-2
 
 Package: com.hang.jxedtad
 Version: 1.0

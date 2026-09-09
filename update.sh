@@ -75,8 +75,8 @@ for block in blocks:
     # 抖音Pro 使用仓库内图标和独立 Sileo depiction。
     if any(line.startswith("Package: com.hang.douyinclockdock") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
-        new_lines.append("Icon: https://hang1888.github.io/Icon/DouyinPro.png?v=0.0.64-assets-1")
-        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.douyinclockdock/depiction.json?v=0.0.64-assets-1")
+        new_lines.append("Icon: https://hang1888.github.io/Icon/DouyinPro.png?v=0.0.64-assets-2")
+        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.douyinclockdock/depiction.json?v=0.0.64-assets-2")
 
     out.append("\n".join(new_lines))
 
