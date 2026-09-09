@@ -78,6 +78,24 @@ Description: 测试版本；12.5.2
 Author: 航
 Name: 航の中国移动去广告
 
+Package: com.hang.douyinclockdock
+Version: 0.0.64
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 1228
+Depends: mobilesubstrate
+Filename: debs/抖音Pro-航-arm64e.deb
+Size: 319992
+MD5sum: e5ddbd34dc8669f3a1d79f213cd77263
+SHA1: 693f28e549ec194397dfb1b64daf549c8064f61e
+SHA256: 5646cad58ac4a281873d8584c1f5f52b0f509956f6d7b6232dedded581708a3c
+Section: 自用
+Description: dyyy魔改版
+Author: 航
+Name: 抖音Pro
+Icon: https://hang1888.github.io/Icon/DouyinPro.png?v=0.0.64-assets-1
+Sileodepiction: https://hang1888.github.io/depictions/com.hang.douyinclockdock/depiction.json?v=0.0.64-assets-1
+
 Package: com.hang.jxedtad
 Version: 1.0
 Architecture: iphoneos-arm64
