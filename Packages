@@ -855,7 +855,7 @@ Section: 自用
 Description: QQ在线模拟，18系列需要正式上线才生效，双指捏合。
 Author: 航
 Name: QQ设备模拟
-Icon: https://hang1888.github.io/Icon/QQ设备模拟.png?v=1.0-assets-1
+Icon: https://hang1888.github.io/Icon/QQDeviceSimulation.png?v=1.0-assets-2
 
 Package: com.hang.sgsrf
 Version: 1.0

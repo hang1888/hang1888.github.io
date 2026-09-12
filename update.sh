@@ -81,7 +81,7 @@ for block in blocks:
     # QQ设备模拟使用仓库内图标。
     if any(line.startswith("Package: com.hang.qqzaixian") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
-        new_lines.append("Icon: https://hang1888.github.io/Icon/QQ设备模拟.png?v=1.0-assets-1")
+        new_lines.append("Icon: https://hang1888.github.io/Icon/QQDeviceSimulation.png?v=1.0-assets-2")
 
     out.append("\n".join(new_lines))
 
