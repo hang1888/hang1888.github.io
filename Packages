@@ -840,6 +840,23 @@ Description: 最新版本测试
 Author: 航
 Name: 航の快题词去广告
 
+Package: com.hang.qqzaixian
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/QQ设备模拟-航-arm64.deb
+Size: 28938
+MD5sum: 4a0421fec2e88f9eb52c88318a16f355
+SHA1: d6df28fd78560802b533f5765138763132397f0c
+SHA256: 5846e3f47b5ecdda0262f6c97ec143473406ea4367810dc44bb193faf3de89ec
+Section: 自用
+Description: QQ在线模拟，18系列需要正式上线才生效，双指捏合。
+Author: 航
+Name: QQ设备模拟
+Icon: https://hang1888.github.io/Icon/QQ设备模拟.png?v=1.0-assets-1
+
 Package: com.hang.sgsrf
 Version: 1.0
 Architecture: iphoneos-arm64
