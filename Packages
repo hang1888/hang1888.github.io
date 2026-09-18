@@ -847,12 +847,12 @@ Maintainer: 航
 Installed-Size: 240
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/QQ设备模拟-航-arm64.deb
-Size: 28938
-MD5sum: 4a0421fec2e88f9eb52c88318a16f355
-SHA1: d6df28fd78560802b533f5765138763132397f0c
-SHA256: 5846e3f47b5ecdda0262f6c97ec143473406ea4367810dc44bb193faf3de89ec
+Size: 28912
+MD5sum: 488f7a0f196d98c8c89b36dd1210f754
+SHA1: 6a0a3c095e366db050a5566fc07199633e5b0fe8
+SHA256: c1a03203a6db2fd5118e79151196f8dbc79c5c24d5b81b79be0bb997adcaf3a5
 Section: 自用
-Description: QQ在线模拟，18系列需要正式上线才生效，双指捏合。
+Description: 双指捏合
 Author: 航
 Name: QQ设备模拟
 Icon: https://hang1888.github.io/Icon/QQDeviceSimulation.png?v=1.0-assets-2
