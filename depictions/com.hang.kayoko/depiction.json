@@ -6,6 +6,23 @@
       "tabname": "更新",
       "views": [
         {
+          "title": "4.7.0",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 新增分组分类标签颜色自定义",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        },
+        {
           "title": "4.6.9",
           "useBoldText": true,
           "useSpacing": false,
@@ -109,7 +126,7 @@
         },
         {
           "title": "版本",
-          "text": "4.6.9",
+          "text": "4.7.0",
           "class": "DepictionTableTextView"
         },
         {
@@ -124,12 +141,12 @@
         },
         {
           "title": "更新时间",
-          "text": "2026/09/03",
+          "text": "2026/09/19",
           "class": "DepictionTableTextView"
         },
         {
           "title": "文件大小",
-          "text": "Rootless 624.75 KB / RootHide 458.81 KB",
+          "text": "Rootless 635.90 KB / RootHide 464.13 KB",
           "class": "DepictionTableTextView"
         },
         {
