@@ -35,6 +35,9 @@ def section_for(block: str) -> str:
         "com.be-huge.insulation", "insulation"
     ]):
         return "插件"
+    # 微信：为微信插件收纳建立源分类，不改原有“微信插件”分类。
+    if "Package: com.hang.plugingroup" in block.splitlines():
+        return "微信"
     # 微信插件
     if any(k in lower for k in [
         "wechat", "weixin", "微信", "wcextract", "未读消息", "助手栏"
@@ -94,4 +97,4 @@ bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
 xz -c9 Packages > Packages.xz
 
-echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信插件 / 配置备份 / 自用"
+echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信 / 微信插件 / 配置备份 / 自用"
