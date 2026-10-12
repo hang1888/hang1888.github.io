@@ -32,7 +32,8 @@ def section_for(block: str) -> str:
     if any(k in lower for k in [
         "com.lclrc.hammerit", "hammer it",
         "com.wkk.lookinloader", "lookinloader",
-        "com.be-huge.insulation", "insulation"
+        "com.be-huge.insulation", "insulation",
+        "com.doimty.fiona"
     ]):
         return "插件"
     # 微信：为微信插件收纳建立源分类，不改原有“微信插件”分类。
