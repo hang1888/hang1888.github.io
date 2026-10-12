@@ -966,16 +966,32 @@ Author: 航
 Name: 乌贼手势 iOS 17 补丁
 
 Package: com.hang.tubiao
-Version: 1.0.1
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/锁屏时间自定义-航-arm64e.deb
+Size: 24942
+MD5sum: ccbb5a9464acb8419f2d7b87730268f0
+SHA1: fadf9184a67940b047153ee64e04bcd730ab08f3
+SHA256: c25ef73e75b4e7b54490cc21bc453d47be310d050501cb5a0075b4998c994b28
+Section: 自用
+Description: 自定义锁屏时间/日期位置与大小
+Author: 航
+Name: 锁屏时间自定义
+
+Package: com.hang.tubiao
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: 航
-Installed-Size: 372
+Installed-Size: 412
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/锁屏时间自定义-航-arm64.deb
-Size: 19446
-MD5sum: 236665b1fa010e60e28781873ece4769
-SHA1: 90a3d82cabb53081673a69beef2a218fbdaa62e5
-SHA256: c6002029a37b833ea5f3188eff1bb2bf2e51a051b620a64a10fe4df865547370
+Size: 31308
+MD5sum: e52759fc002191a7e4bf46834d5e833c
+SHA1: c27ecd864b9164612f935d9dc9984584821e131d
+SHA256: 13dbae9eb47015acf77c1901974b14709867ce3c0fe4880443194e0f76846305
 Section: 自用
 Description: 自定义锁屏时间/日期位置与大小
 Author: 航
