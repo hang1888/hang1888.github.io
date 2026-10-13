@@ -37,7 +37,8 @@ def section_for(block: str) -> str:
         "com.hang.tubiao",
         "ovh.exerhythm.cardculator",
         "com.netskao.injectipa",
-        "com.hang.kayoko"
+        "com.hang.kayoko",
+        "com.hang.noti"
     ]):
         return "插件"
     # 微信：为微信插件收纳建立源分类，不改原有“微信插件”分类。
