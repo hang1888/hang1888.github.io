@@ -1061,6 +1061,38 @@ Description: 自定义锁屏时间/日期位置与大小
 Author: 航
 Name: 锁屏时间自定义
 
+Package: com.hang.wechatnoads
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信去广告-航-arm64e.deb
+Size: 12486
+MD5sum: 37dc55c0e7cb45b178ba2242437b8993
+SHA1: 4d1ec0b6c6e75b0e857b26a5afb51d826ba40085
+SHA256: 78f5be37477f3dacb0e5bd4dbd6d1fa4d8e4a28575e1d0f1235fbdc09ec980bb
+Section: 广告
+Description: 微信去广告（公众号/朋友圈/小程序/搜索/视频号/订阅号），无开关注入即生效
+Author: 航
+Name: 航の微信去广告
+
+Package: com.hang.wechatnoads
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信去广告-航-arm64.deb
+Size: 12386
+MD5sum: 2898f5ff67836e1b1420c9aac40827f6
+SHA1: ae049d83c47d0d944660cd7e11f2b44c14a9555d
+SHA256: d2c0b7da7821d7a2dd2a33fbcb218e0b10ce0a6c5fa328061602dba3242f47ed
+Section: 广告
+Description: 微信去广告（公众号/朋友圈/小程序/搜索/视频号/订阅号），无开关注入即生效
+Author: 航
+Name: 航の微信去广告
+
 Package: com.hang.xmly
 Version: 1.0
 Architecture: iphoneos-arm64
