@@ -915,38 +915,38 @@ Icon: https://hang1888.github.io/Icon/Kayoko.png?v=4.6.6-assets-2
 Sileodepiction: https://hang1888.github.io/depictions/com.hang.kayoko/depiction.json?v=4.7.0-spacing-1
 
 Package: com.hang.keyboardeffects
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: 航
 Installed-Size: 580
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/航の键盘特效-航-arm64e.deb
-Size: 83060
-MD5sum: e351ea82988a0b9c7eb9183a878bfe15
-SHA1: 2f9988f6def478348aa1cfce6fbcda8b31ef22b7
-SHA256: eff17772c68245d513efafdba1cb024bc65f1880d220865df788fff8e86944fa
+Size: 82996
+MD5sum: 474b02703d6aab60ecc4b7023900b767
+SHA1: bdb6dbe23e10a074c903c34d4bd11d988db79021
+SHA256: 5b725517aa8f1a73fb148e19293ca7a7f7377a0b5dac40886a834553147df0ed
 Section: 插件
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Author: 航
 Name: 键盘特效
-Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.0-assets-1
+Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1
 
 Package: com.hang.keyboardeffects
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: 航
 Installed-Size: 580
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/航の键盘特效-航-arm64.deb
-Size: 83138
-MD5sum: b58edc6bfdaf0f013531fc22fe6afea3
-SHA1: d847217a68b1f4c8009f010bbb976f4d5afe51b8
-SHA256: b6191dc784b4d37d98bc24e5e9703dff7d9b04b0e4f99b061579522efe75d6c7
+Size: 83236
+MD5sum: 58d228eb82ecfb3d87459bb19d9fc12f
+SHA1: 8972ee080541ce6c466a82d920204542717ffc57
+SHA256: 7f1b52559de51e6865b1df3da590efed62090eed021650672b06b332e6640013
 Section: 插件
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Author: 航
 Name: 键盘特效
-Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.0-assets-1
+Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1
 
 Package: com.hang.ktc
 Version: 1.0.1
