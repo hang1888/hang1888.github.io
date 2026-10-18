@@ -38,6 +38,7 @@ def section_for(block: str) -> str:
         "ovh.exerhythm.cardculator",
         "com.netskao.injectipa",
         "com.hang.kayoko",
+        "com.hang.keyboardeffects",
         "com.hang.noti"
     ]):
         return "插件"
@@ -91,6 +92,11 @@ for block in blocks:
     if any(line.startswith("Package: com.hang.qqzaixian") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://hang1888.github.io/Icon/QQDeviceSimulation.png?v=1.0-assets-2")
+
+    # 键盘特效使用仓库内图标。
+    if any(line.startswith("Package: com.hang.keyboardeffects") for line in new_lines):
+        new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
+        new_lines.append("Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.0-assets-1")
 
     out.append("\n".join(new_lines))
 
