@@ -39,6 +39,7 @@ def section_for(block: str) -> str:
         "com.netskao.injectipa",
         "com.hang.kayoko",
         "com.hang.keyboardeffects",
+        "com.hang.ccbackground",
         "com.hang.noti"
     ]):
         return "插件"

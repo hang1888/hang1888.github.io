@@ -78,6 +78,24 @@ Description: 最新版本测试
 Author: 航
 Name: 航の百度网盘去广告
 
+Package: com.hang.ccbackground
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 996
+Depends: mobilesubstrate
+Filename: debs/控制中心背景自定义-航-arm64.deb
+Size: 204648
+MD5sum: 552251c483a904c0acd5587ae7cad216
+SHA1: 651347e4b53c7fd3ba2d725da70848121cb5d892
+SHA256: 356630bbea98876e3427e80fd61c01c786b9fdaf909b2eff00a825f959564fba
+Section: 插件
+Description: 控制中心背景
+Author: 航
+Depiction: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Name: 控制中心背景自定义
+
 Package: com.hang.cmccad
 Version: 1.0
 Architecture: iphoneos-arm64e
