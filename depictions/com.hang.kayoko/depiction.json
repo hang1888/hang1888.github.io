@@ -6,6 +6,19 @@
       "tabname": "更新",
       "views": [
         {
+          "title": "4.7.1",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 新增悬浮面板开关",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
           "title": "4.7.0",
           "useBoldText": true,
           "useSpacing": false,
@@ -102,7 +115,7 @@
         },
         {
           "title": "版本",
-          "text": "4.7.0",
+          "text": "4.7.1",
           "class": "DepictionTableTextView"
         },
         {
@@ -117,12 +130,12 @@
         },
         {
           "title": "更新时间",
-          "text": "2026/09/19",
+          "text": "2026/10/21",
           "class": "DepictionTableTextView"
         },
         {
           "title": "文件大小",
-          "text": "Rootless 635.90 KB / RootHide 464.13 KB",
+          "text": "Rootless 636.76 KB / RootHide 465.76 KB",
           "class": "DepictionTableTextView"
         },
         {
