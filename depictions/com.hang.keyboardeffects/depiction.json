@@ -5,6 +5,19 @@
       "tabname": "更新",
       "views": [
         {
+          "title": "1.7",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 新增邻键波浪、连击能量光效样式\n- 新增渐变资料卡与发光越狱源入口",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
           "title": "1.6",
           "useBoldText": true,
           "useSpacing": false,
@@ -32,7 +45,7 @@
         },
         {
           "title": "版本",
-          "text": "1.6",
+          "text": "1.7",
           "class": "DepictionTableTextView"
         },
         {

@@ -973,40 +973,40 @@ Icon: https://hang1888.github.io/Icon/Kayoko.png?v=4.6.6-assets-2
 Sileodepiction: https://hang1888.github.io/depictions/com.hang.kayoko/depiction.json?v=4.7.1-floating
 
 Package: com.hang.keyboardeffects
-Version: 1.6
+Version: 1.7
 Architecture: iphoneos-arm64e
 Maintainer: 航
-Installed-Size: 764
+Installed-Size: 856
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/航の键盘特效-航-arm64e.deb
-Size: 130828
-MD5sum: e8dbb24af6049e52eafe147506932497
-SHA1: 209a81cd6bd1795a4a2a37ce8680ad986c2ca21c
-SHA256: 2f9fac4bf62275e0b73c8a7982a7ad0d57cd820cb0822b25b909f3f0453e6544
+Size: 149118
+MD5sum: a354e4e97195056218ac3a767c20624d
+SHA1: 0ae27ff44d0c9bbf30dd3c0f322778c480d445e9
+SHA256: 64841a33d1cb53c48d80394f37dad524544c65f57d3e2dcebb6ee594da85419c
 Section: 插件
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Author: 航
 Name: 键盘特效
 Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1
-Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.6-no-logs
+Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.7-ui
 
 Package: com.hang.keyboardeffects
-Version: 1.6
+Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: 航
-Installed-Size: 764
+Installed-Size: 856
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/航の键盘特效-航-arm64.deb
-Size: 130932
-MD5sum: 59af61570cb6b3975ddd37fe6f58801a
-SHA1: 5345d61d06630478e80fd681c371cbfcef58dcdf
-SHA256: 61e2380d80172ed4cb3cbbbd610700413cf9c1f7d5944c49f22f279bc00e8194
+Size: 148970
+MD5sum: 60963a9b20c4a8bbfbc2b29c25bc208b
+SHA1: 10256ffbc844204dd3d6845fa2630f68d3f97529
+SHA256: c3a6f379ca5422ee5fc76f0d213d729e49cc193ed20ebfa7a0e3add85dc7a501
 Section: 插件
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Author: 航
 Name: 键盘特效
 Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1
-Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.6-no-logs
+Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.7-ui
 
 Package: com.hang.ktc
 Version: 1.0.1
