@@ -12,7 +12,7 @@
           "class": "DepictionSubheaderView"
         },
         {
-          "markdown": "- 新增邻键波浪、连击能量光效样式\n- 新增渐变资料卡与发光越狱源入口",
+          "markdown": "- 新增邻键波浪、连击能量光效样式",
           "useSpacing": false,
           "useBottomMargin": false,
           "class": "DepictionMarkdownView"
