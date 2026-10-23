@@ -94,10 +94,11 @@ for block in blocks:
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://hang1888.github.io/Icon/QQDeviceSimulation.png?v=1.0-assets-2")
 
-    # 键盘特效使用仓库内图标。
+    # 键盘特效使用仓库内图标与独立 Sileo 更新介绍。
     if any(line.startswith("Package: com.hang.keyboardeffects") for line in new_lines):
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1")
+        new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.6-no-logs")
 
     out.append("\n".join(new_lines))
 

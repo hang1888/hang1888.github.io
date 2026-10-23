@@ -1,0 +1,53 @@
+{
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "tabname": "更新",
+      "views": [
+        {
+          "title": "1.6",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "- 删掉日志打印",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "原生键盘圆角与沿圆角轮廓的彩色发光点击特效"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "版本",
+          "text": "1.6",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "兼容性",
+          "text": "iOS 15.0 及以上",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "开发者",
+          "text": "航",
+          "class": "DepictionTableTextView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
