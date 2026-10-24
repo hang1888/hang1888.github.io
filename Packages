@@ -1024,6 +1024,40 @@ Description: 最新版本测试
 Author: 航
 Name: 航の快题词去广告
 
+Package: com.hang.liquiddock
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), firmware (<< 18.0)
+Filename: debs/液态Dock_1.0_iphoneos-arm64.deb
+Size: 497534
+MD5sum: aef985de9eaf4566e4574f2fbba0bce9
+SHA1: 3691c45c43dd5009c5682b9a2d28aab5b4adae31
+SHA256: 8b20c864a4b2de4bae00ec145c5a81b1f81e59a21e975c351ce7500f7cfd80e3
+Section: 插件
+Description: 液态Dock
+Author: 航
+Name: 液态Dock
+Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
+
+Package: com.hang.liquiddock
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), firmware (<< 18.0)
+Filename: debs/液态Dock_1.0_iphoneos-arm64e.deb
+Size: 479654
+MD5sum: 5e496d302646eb48af630904ca8630da
+SHA1: e107a7e1428f85e78687b70809a33104a96e48c6
+SHA256: 3c4dec781bd50e814ed7f9a1cbc7a4a050c056ac4b2430c16f7fbe3170f66d1c
+Section: 插件
+Description: 液态Dock
+Author: 航
+Name: 液态Dock
+Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
+
 Package: com.hang.noti
 Version: 1.0
 Architecture: iphoneos-arm64e
