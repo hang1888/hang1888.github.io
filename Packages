@@ -1028,13 +1028,13 @@ Package: com.hang.liquiddock
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 航
-Installed-Size: 1032
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), firmware (<< 18.0)
+Installed-Size: 1012
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 18.0)
 Filename: debs/液态Dock_1.0_iphoneos-arm64.deb
-Size: 497534
-MD5sum: aef985de9eaf4566e4574f2fbba0bce9
-SHA1: 3691c45c43dd5009c5682b9a2d28aab5b4adae31
-SHA256: 8b20c864a4b2de4bae00ec145c5a81b1f81e59a21e975c351ce7500f7cfd80e3
+Size: 497862
+MD5sum: 87044268b703f852d57bfc6333c34038
+SHA1: ededa23e90799fe2072dad13d4820cb07cdece31
+SHA256: 1153aa27870b01c4bfaafe1d69e2e1b8f4049a30b613015d73f282a7dd3e7a27
 Section: 插件
 Description: 液态Dock
 Author: 航
@@ -1045,13 +1045,13 @@ Package: com.hang.liquiddock
 Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 航
-Installed-Size: 712
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), firmware (<< 18.0)
+Installed-Size: 708
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 18.0)
 Filename: debs/液态Dock_1.0_iphoneos-arm64e.deb
-Size: 479654
-MD5sum: 5e496d302646eb48af630904ca8630da
-SHA1: e107a7e1428f85e78687b70809a33104a96e48c6
-SHA256: 3c4dec781bd50e814ed7f9a1cbc7a4a050c056ac4b2430c16f7fbe3170f66d1c
+Size: 479734
+MD5sum: 25ce9a4780f2e347faacf32c6f323ef6
+SHA1: 53cec1f9c4610d7ca81f718867b030b3df5bd011
+SHA256: 7d755e0e2cdf903bbd9a5b8c38ac8509459bf1f9c682aba3d892d4a9e79cfa95
 Section: 插件
 Description: 液态Dock
 Author: 航
