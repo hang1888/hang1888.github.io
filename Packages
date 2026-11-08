@@ -1057,37 +1057,37 @@ Author: 航
 Name: 航の快题词去广告
 
 Package: com.hang.liquiddock
-Version: 1.1
+Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: 航
-Installed-Size: 1032
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
-Filename: debs/液态Dock_1.0_iphoneos-arm64.deb
-Size: 495396
-MD5sum: ff47a20d621a9f5c5249373af3b04ab8
-SHA1: 941ec1f53048c725f03d24659dd64a1726fea204
-SHA256: 0520fcf94c53d3bea232b23a8218149886e9e79bfbf9f60bdc5643f7adb8d2ed
+Installed-Size: 4656
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/LiquidUIPro_iphoneos-arm64.deb
+Size: 3642318
+MD5sum: 03c82c0406cedbf9097dcf51beef6b61
+SHA1: 1e8d050a96449872ec65c2b199e04198955c0236
+SHA256: a7709b6ef7e8a351f2d5010ea1c62fd157579fae1530417803a93b65a5e970eb
 Section: 插件
-Description: 液态Dock
+Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
 Author: 航
-Name: 液态Dock
+Name: LiquidUI Pro
 Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
 
 Package: com.hang.liquiddock
-Version: 1.1
+Version: 2.0
 Architecture: iphoneos-arm64e
 Maintainer: 航
-Installed-Size: 712
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
-Filename: debs/液态Dock_1.0_iphoneos-arm64e.deb
-Size: 477460
-MD5sum: ea6f08e40cd22fc7947801160f6906f3
-SHA1: 145009a50058db691616ce37192b34cf3a70251f
-SHA256: fe51f6116a3eaf27261502cb6c5c5d2649450ce743ff01cb61f7908522951b8d
+Installed-Size: 3920
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/LiquidUIPro_iphoneos-arm64e.deb
+Size: 3425838
+MD5sum: c31ff4931cee9cf5bbf56b71d6db5392
+SHA1: 1e557bcd2065b65121cf2227225904e3b122aa44
+SHA256: 3ca90c6b4f7fff972515f4b4c1f51f6157edb8b0ea7640cec7ef18005b8611d0
 Section: 插件
-Description: 液态Dock
+Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
 Author: 航
-Name: 液态Dock
+Name: LiquidUI Pro
 Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
 
 Package: com.hang.noti
