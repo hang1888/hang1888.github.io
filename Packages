@@ -1071,7 +1071,7 @@ Section: 插件
 Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
 Author: 航
 Name: LiquidUI Pro
-Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
+Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee
 
 Package: com.hang.liquiddock
 Version: 2.0
@@ -1088,7 +1088,7 @@ Section: 插件
 Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
 Author: 航
 Name: LiquidUI Pro
-Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455
+Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee
 
 Package: com.hang.noti
 Version: 1.0

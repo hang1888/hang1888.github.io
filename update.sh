@@ -104,7 +104,7 @@ for block in blocks:
 
     if "Package: com.hang.liquiddock" in new_lines:
         new_lines = [line for line in new_lines if not line.startswith("Icon:")]
-        new_lines.append("Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=1.0-12ce2455")
+        new_lines.append("Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee")
 
     out.append("\n".join(new_lines))
 
