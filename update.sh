@@ -17,6 +17,9 @@ text = path.read_text(encoding="utf-8", errors="ignore")
 blocks = [b for b in text.split("\n\n") if b.strip()]
 
 def section_for(block: str) -> str:
+    if "Package: com.hang.feedback" in block.splitlines():
+        # 不可见排序前缀，保持可见分类名不变。
+        return "\u2060问题反馈Q2497314817"
     if "Package: com.hang.liquiddock" in block.splitlines():
         return "插件"
     lower = block.lower()
@@ -117,4 +120,4 @@ bzip2 -c9 Packages > Packages.bz2
 gzip -c9 Packages > Packages.gz
 xz -c9 Packages > Packages.xz
 
-echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信 / 微信插件 / 配置备份 / 自用"
+echo "✅ 分类完成：广告 / 补丁 / 插件 / 微信 / 微信插件 / 配置备份 / 自用 / 问题反馈Q2497314817"

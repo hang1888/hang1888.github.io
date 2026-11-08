@@ -196,6 +196,22 @@ Description: 抖音搜索下方禁止猜你想看刷新。
 Author: 航
 Name: 抖音搜索禁止刷新
 
+Package: com.hang.feedback
+Version: 1.0
+Architecture: all
+Maintainer: 航
+Installed-Size: 0
+Filename: debs/问题反馈Q2497314817.deb
+Size: 684
+MD5sum: cc18b78aa3b89161c6c57a25da88e5d1
+SHA1: 5d762321d9ccb2dced6969414aa18bdca91db8fa
+SHA256: 2314845b696cad2a2ce127eabe7c367488417eeab7295c634acdc1334f038963
+Section: ⁠问题反馈Q2497314817
+Priority: optional
+Description: 问题反馈请联系 QQ：2497314817。仅用于分类占位，不包含插件或安装脚本。
+Author: 航
+Name: 问题反馈Q2497314817
+
 Package: com.hang.jxedtad
 Version: 1.0
 Architecture: iphoneos-arm64
