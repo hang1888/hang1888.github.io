@@ -1072,40 +1072,6 @@ Description: 最新版本测试
 Author: 航
 Name: 航の快题词去广告
 
-Package: com.hang.liquiddock
-Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: 航
-Installed-Size: 4656
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/LiquidUIPro_iphoneos-arm64.deb
-Size: 3642358
-MD5sum: 07d104465b6352621233af078c449a8a
-SHA1: 9c9afcccd36f3aa53b2ea79338533c9457061de2
-SHA256: 23021266563d4cdc5ad9a9fb1a0b56f170977e38eb13431ab3239df273dc7614
-Section: 插件
-Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
-Author: 航
-Name: LiquidUI Pro
-Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee
-
-Package: com.hang.liquiddock
-Version: 2.1
-Architecture: iphoneos-arm64e
-Maintainer: 航
-Installed-Size: 3920
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/LiquidUIPro_iphoneos-arm64e.deb
-Size: 3425964
-MD5sum: 9ad04a685d71eb72f2abc8a0591e4dd4
-SHA1: 1c3b2017f084e0210c6461dce53a50fcabcc81ef
-SHA256: ce1cdbbe2571454ff064337be7e5928fd447338c306551c5d9d87023fbeda415
-Section: 插件
-Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
-Author: 航
-Name: LiquidUI Pro
-Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee
-
 Package: com.hang.noti
 Version: 1.0
 Architecture: iphoneos-arm64e

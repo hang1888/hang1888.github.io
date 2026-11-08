@@ -20,8 +20,6 @@ def section_for(block: str) -> str:
     if "Package: com.hang.feedback" in block.splitlines():
         # 不可见排序前缀，保持可见分类名不变。
         return "\u2060问题反馈Q2497314817"
-    if "Package: com.hang.liquiddock" in block.splitlines():
-        return "插件"
     lower = block.lower()
     # 广告优先
     if any(k in lower for k in [
@@ -104,10 +102,6 @@ for block in blocks:
         new_lines = [line for line in new_lines if not line.startswith("Icon:") and not line.startswith("Depiction:") and not line.startswith("Native-Depiction:") and not line.startswith("Sileodepiction:")]
         new_lines.append("Icon: https://hang1888.github.io/Icon/KeyboardEffects.png?v=1.1-assets-1")
         new_lines.append("Sileodepiction: https://hang1888.github.io/depictions/com.hang.keyboardeffects/depiction.json?v=1.7-ui")
-
-    if "Package: com.hang.liquiddock" in new_lines:
-        new_lines = [line for line in new_lines if not line.startswith("Icon:")]
-        new_lines.append("Icon: https://hang1888.github.io/Icon/LiquidDockIcon.png?v=2.0-icon-d7f4267643ee")
 
     out.append("\n".join(new_lines))
 
