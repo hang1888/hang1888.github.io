@@ -23,7 +23,8 @@ def section_for(block: str) -> str:
     lower = block.lower()
     # 广告优先
     if any(k in lower for k in [
-        "去广告", "ktc", "com.hang.365", "icam365", "fastword", "teleprompter", "adblock", "noad"
+        "去广告", "ktc", "com.hang.365", "icam365", "fastword", "teleprompter", "adblock", "noad",
+        "com.hang.gdqj", "高德"
     ]):
         return "广告"
     # 补丁（放在通用插件规则之前）

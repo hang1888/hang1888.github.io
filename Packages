@@ -212,6 +212,38 @@ Description: 问题反馈请联系 QQ：2497314817。仅用于分类占位，不
 Author: 航
 Name: 问题反馈Q2497314817
 
+Package: com.hang.gdqj
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.gdqj_1.0_iphoneos-arm64e.deb
+Size: 19052
+MD5sum: 7f28086f8d27bcffad2c5e2e79b6bdc1
+SHA1: 477a5a62a169691dcd6c9781cba1ed3c07956fb7
+SHA256: 5a9109ec5666c125a3038d4c6207d4e2e1526e4cec1d7d80004fa392f3a93099
+Section: 广告
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Author: 航
+Name: 航の缺德地图净化
+
+Package: com.hang.gdqj
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.gdqj_1.0_iphoneos-arm64.deb
+Size: 19126
+MD5sum: c4d09d0c463cb1e36505a3353d020038
+SHA1: 7a7b19f8ecbe444a42d11f86bd9e55e0b6bb0e58
+SHA256: 05800a67f4dbabe9a0f5e6384971d3bd47b07ae95ca66e5b2204d281d1f9784a
+Section: 广告
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Author: 航
+Name: 航の缺德地图净化
+
 Package: com.hang.jxedtad
 Version: 1.0
 Architecture: iphoneos-arm64
